@@ -255,6 +255,8 @@ Physics|	ERDDAP|	https://prod-erddap.emodnet-physics.eu/erddap/index.html
 Having trouble? Verify the status of the EMODnet OGC services at https://monitor.emodnet.eu.
 
 ### [>> Next: Search through metadata using the OGC Catalogue Service (CSW)](Tutorial_Part_1_CSW.ipynb)
+or, Lauch this tutorial on Binder:
+[![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/M-Mks/EMODnet_OGC_Webservices/HEAD)
 <hr>
 
 This workshop was adapted from the [Pydata 2017 workshop of Julia Wagemann](https://github.com/jwagemann/2017_pydata_tutorial)
