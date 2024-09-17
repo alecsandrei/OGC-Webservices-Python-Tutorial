@@ -253,5 +253,6 @@ Having trouble? Verify the status of the EMODnet OGC services at https://monitor
 
 ### [>> Next: Search through metadata using the OGC Catalogue Service (CSW)](Tutorial_Part_1_CSW.ipynb)
 <hr>
-This workshop was adapted from the [Pydata 2017 workshop of Julia Wagemann](https://github.com/jwagemann/2017_pydata_tutorial) <a rel="license" href="https://creativecommons.org/licenses/by/4.0/"><img style="float: right" alt="Creative Commons Lizenzvertrag" style="border-width:0" src="https://i.creativecommons.org/l/by/4.0/88x31.png" /></a>
+This workshop was adapted from the [Pydata 2017 workshop of Julia Wagemann](https://github.com/jwagemann/2017_pydata_tutorial)
 
+[![Creative Commons Lizenzvertrag](https://i.creativecommons.org/l/by/4.0/88x31.png)](https://creativecommons.org/licenses/by/4.0/)
