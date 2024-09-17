@@ -1,3 +1,6 @@
+Lauch this tutorial on Binder:
+[![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/M-Mks/EMODnet_OGC_Webservices/HEAD)
+
 <img src="EMODnet_compact_colour (1).png" align="right" width="50%"></img>
 # EMODnet OGC services Workshop
 ### Tier 2: How to use OGC webservices offered by EMODnet in your data analysis
