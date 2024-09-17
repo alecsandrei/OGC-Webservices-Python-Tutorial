@@ -12,3 +12,6 @@ dependencies:
   - matplotlib
   - pandas
   - descartes
+  - folium
+  - ipyleaflet
+  - math
