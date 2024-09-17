@@ -1,0 +1,963 @@
+Title,Abstract,URLs,Protocols
+20-year mean and standard deviation probability that the seafloor is below the halocline in the Baltic ÔÇô Version 2022,"Based on DHI operational Hydrodynamic 3D Model DKBS2hd model run results, a point dataset describing for each year the probability of a certain seabed location in the Baltic Sea being located below the deep halocline was created. The spatial coverage was the Baltic Sea. The spatial resolution was 5km. The temporal coverage was 20 years (2001-2020). The 2 rasters made available here result from interpolation of the point dataset, and represent 20-year probability (respectively average and standard deviation) values.
+The development of the original point dataset was funded by the EMODnet lot ÔÇÿSeabed HabitatsÔÇÖ for use in the development of the EUSeaMap product, more specifically in modeling the spatial distribution of the biological zones ÔÇÿcircalittoralÔÇÖ and ÔÇÿoffshore circalittoralÔÇÖ. According to the EUNIS habitat classification, in the Baltic Sea the circalittoral is above the halocline/pycnocline, while the offshore circalittoral is below.","https://gis.ices.dk/geonetwork/srv/eng/catalog.search#/metadata/9e4edb30-aefb-4551-9c6f-7cf324b4edb3; 
+https://files.emodnet-seabedhabitats.eu/data/prob_deep_halocline_mean_sd_raster.zip","WWW:LINK; 
+WWW:LINK-1.0-http--link"
+<h2>Phytoplankton alpha diversity in the greater Baltic Sea area</h2>,"<p>Biodiversity loss due to human activities is an increasing threat for marine ecosystems and the services we obtain from them. As biodiversity is directly related to the resilience of ecosystems to temporary disturbance, biodiversity monitoring is a vital task for areas subjected to conservation goals. Environmental factors often control the community composition and biodiversity of marine microplankton, such as the pronounced salinity gradient in the Baltic Sea (e.g. Hu et al. 2016). Time series data of biodiversity can therefore provide an indication of changes in community composition due to environmental stressors, such as climate change or eutrophication.</p><p>As many biodiversity estimates are biased by sampling effort, caution must be taken when interpreting alpha diversity from microscopy phytoplankton counts. By rarefaction and evenness estimation, these biases can be reduced, but not ignored.</p>","https://emodnet.ec.europa.eu/geonetwork/srv/eng/catalog.search#/metadata/d761592b5203e428ae8e9b11a63f1515f68f5865; 
+https://emodnet.ec.europa.eu/geoviewer/?layers=12981:1:1,12982:1:1,12767:1:1&basemap=ebwbl&active=12981&bounds=-7.524258919099987,49.22855369281971,36.1112274772685,69.83183267001127&filters=; 
+https://erddap.emodnet.eu/erddap/files/biology_8221_a45b_17fb_beeb.nc; 
+https://github.com/EMODnet/EMODnet-Biology-phytoplankton-alpha-diversity; 
+https://mda.vliz.be/directlink.php?fid=VLIZ_00000727_642d326e653e6196734923",
+"Amphiura, Abra nitida, Galathowenia oculata, Ennucula tenuis, Thyasira flexuosa, Nucula nitidosa, Diplocirrus glaucus abundance model in Baltic Sea","Data represents the abundance of benthic community with Amphiura, Abra nitida, Galathowenia oculata, Ennucula tenuis, Thyasira flexuosa, Nucula nitidosa, Diplocirrus glaucusinthe Baltic Sea. Baltic wide benthic community analysis is done based on the abundance and biomass data averaged for all sampling events in within 5 km grid cell based on the harmonised dataset that comprises data at over 7000 locations mostly sampled in period 2000-2013. Random Forest model was used for spatial interpolation.Original data can be downloaded: http://gis.ices.dk/gis/rest/services/ExternalDatasets/Benthic/MapServer. For EMODnet Seabed habitat portal the original dataset was separated as presence-absence grids per identified benthic community in the original article.","https://www.emodnet-seabedhabitats.eu/access-data/launch-map-viewer/?LAYERS=EUSM2016&Y=39&X=-8.525390623910205&zoom=5&center=10.400,58.700&layerIds=977&baseLayerId=-3&activeFilters=",WWW:LINK-1.0-http--link
+Baltic Sea - Contaminants aggregated datasets 1972/2017 v2018,"EMODnet Chemistry aims to provide access to marine chemistry data sets and derived data products concerning eutrophication, ocean acidification and contaminants. The chemicals chosen reflect importance to the Marine Strategy Framework Directive (MSFD). This regional aggregated dataset contains all unrestricted EMODnet Chemistry data on contaminants (49 parameters), and covers the Baltic Sea with 3818 CDI records divided per matrices: 1358 biota (396 Vertical profiles and 962 Time series),906 water profiles, 2510 sediment profiles. Vertical profiles temporal range is from 1985-04-16 to 2016-09-27. Time series temporal range is from 1972-05-02 to 2017-10-30. Data were aggregated and quality controlled by ‘Swedish Meteorological and Hydrological Institute (SMHI)’ from Sweden.	
+Regional datasets concerning contaminants are automatically harvested. Parameter names in these datasets are based on P01, BODC Parameter Usage Vocabulary, which is available at: http://seadatanet.maris2.nl/bandit/browse_step.php . Each measurement value has a quality flag indicator. The resulting data collections for each Sea Basin are harmonised, and the collections are quality controlled by EMODnet Chemistry Regional Leaders using ODV Software and following a common methodology for all Sea Regions. 
+Harmonisation means that: (1) unit conversion is carried out to express contaminant concentrations with a limited set of measurement units (according to EU directives 2013/39/UE; Comm. Dec. EU 2017/848) and (2) merging of variables described by different “local names” ,but corresponding exactly to the same concepts in BODC P01 vocabulary.
+The harmonised dataset can be downloaded as ODV spreadsheet (TXT file), which is composed of metadata header followed by tab separated values. This worksheet can be imported to ODV Software for visualisation (More information can be found at: https://www.seadatanet.org/Software/ODV ).
+The same dataset is offered also as XLSX file in a long/vertical format, in which each P01 measurement is a record line. Additionally, there are a series of columns that split P01 terms in subcomponents (measure, substance, CAS number, matrix...).This transposed format is more adapted to worksheet applications users (e.g. LibreOffice Calc).
+The 49 parameter names in this metadata record are based on P02, SeaDataNet Parameter Discovery Vocabulary, which is available at: http://seadatanet.maris2.nl/v_bodc_vocab_v2/vocab_relations.asp?lib=P02 .
+Detailed documentation will be published soon.
+The original datasets can be searched and downloaded from EMODnet Chemistry Download Service: https://emodnet-chemistry.maris.nl/search","https://doi.org/10.6092/q0er-ss61; 
+https://nodc.ogs.it/repository/aggregated-datasets/contaminants/EMD_Contaminants_Baltic_2018_unrestricted.zip","DOI; 
+WWW:DOWNLOAD-1.0-link--download"
+Baltic Sea - Contaminants aggregated datasets 1972/2021 v2024,"EMODnet Chemistry aims to provide access to marine chemistry datasets and derived data products concerning eutrophication, acidity and contaminants. The importance of the selected substances and other parameters relates to the Marine Strategy Framework Directive (MSFD). This aggregated dataset contains all unrestricted EMODnet Chemistry data on potential hazardous substances, despite the fact that some data might not be related to pollution (e.g. collected by deep corer). Temperature, salinity and additional parameters are included when available. It covers the Baltic Sea. Data were harmonised and validated by the ‘Swedish Meteorological and Hydrological Institute (SMHI)’ in Sweden.	
+The dataset contains water, sediment and biota profiles. The temporal coverage is 1987–2021 for water measurements, 1974–2021 for sediment measurements and 1972-2021 for biota measurements.
+Regional datasets concerning contaminants are automatically harvested and the resulting collections are harmonised and validated using ODV Software and following a common methodology for all sea regions ( https://doi.org/10.6092/8b52e8d7-dc92-4305-9337-7634a5cae3f4). Parameter names are based on P01 vocabulary, which relates to BODC Parameter Usage Vocabulary and is available at: https://vocab.nerc.ac.uk/search_nvs/P01/.
+The harmonised dataset can be downloaded as as an ODV spreadsheet, which is composed of a metadata header followed by tab separated values. This spreadsheet can be imported into ODV Software for visualisation (more information can be found at: https://www.seadatanet.org/Software/ODV). In addition, the same dataset is offered also as a txt file in a long/vertical format, in which each P01 measurement is a record line. Additionally, there are a series of columns that split P01 terms into subcomponents (substance, CAS number, matrix...).This transposed format is more adapted to worksheet applications (e.g. LibreOffice Calc).","https://emodnet-chemistry.webodv.awi.de/; 
+https://nodc.ogs.it/repository/aggregated-datasets/contaminants/EMD_Contaminants_Baltic_2024_unrestricted.zip; 
+https://doi.org/10.6092/8b52e8d7-dc92-4305-9337-7634a5cae3f4; 
+https://doi.org/10.13120/5784540a-982a-477d-a9ff-ff39b576fab9","WWW:LINK; 
+WWW:DOWNLOAD-1.0-link--download; 
+WWW:LINK-1.0-http--link; 
+DOI"
+Baltic Sea - Contaminants aggregated datasets 1974/2018 v2021,"EMODnet Chemistry aims to provide access to marine chemistry data sets and derived data products concerning eutrophication, ocean acidification and contaminants. The chemicals chosen reflect importance to the Marine Strategy Framework Directive (MSFD). This regional aggregated dataset contains all unrestricted EMODnet Chemistry data on contaminants; temperature, salinity and additional sampling parameters are included when available. The spatial coverage is the Baltic Sea with 3186 CDI records divided per matrices:  808 water profiles, 1556 sediment profiles and 822 biota profiles. For water, vertical profiles temporal range is from 1999-05-15 to 2018-08-27. For sediment, vertical profiles temporal range is from 1974-04-25 to 2018-08-27. For biota, vertical profiles temporal range is from 1998-09-14 to 2018-10-01. Data were aggregated and quality controlled by ‘Swedish Meteorological and Hydrological Institute (SMHI)’ from Sweden.	
+Regional datasets concerning contaminants are automatically harvested. Parameter names in these datasets are based on P01, BODC Parameter Usage Vocabulary, which is available at: https://vocab.seadatanet.org/p01-facet-search. Each measurement value has a quality flag indicator. The resulting data collections for each Sea Basin are harmonised, and the collections are quality controlled by EMODnet Chemistry Regional Leaders using ODV Software and following a common methodology for all Sea Regions. 
+Harmonisation means that: (1) unit conversion is carried out to express contaminant concentrations with a limited set of measurement units (according to EU directives 2013/39/UE; Comm. Dec. EU 2017/848) and (2) merging of variables described by different “local names” ,but corresponding exactly to the same concepts in BODC P01 vocabulary.
+Detailed documentation is available at: https://doi.org/10.6092/8b52e8d7-dc92-4305-9337-7634a5cae3f4
+Explore and extract data at: https://emodnet-chemistry.webodv.awi.de/contaminants%3EBaltic
+The harmonised dataset can also be downloaded as ODV spreadsheet (TXT file), which is composed of metadata header followed by tab separated values. This worksheet can be imported to ODV Software for visualisation (More information can be found at: https://www.seadatanet.org/Software/ODV ).
+The same dataset is offered also as XLSX file in a long/vertical format, in which each P01 measurement is a record line. Additionally, there are a series of columns that split P01 terms in subcomponents (measure, substance, CAS number, matrix...).This transposed format is more adapted to worksheet applications users (e.g. LibreOffice Calc).
+The original datasets can be searched and downloaded from EMODnet Chemistry Chemistry CDI Data and Discovery Access Service: https://emodnet-chemistry.maris.nl/search","https://doi.org/10.6092/28y3-th08; 
+https://emodnet-chemistry.webodv.awi.de/; 
+https://nodc.ogs.it/repository/aggregated-datasets/contaminants/EMD_Contaminants_Baltic_2021_unrestricted.zip",DOI
+Baltic Sea - Contaminants aggregated datasets 1974/2021 v2022,"EMODnet Chemistry aims to provide access to marine chemistry datasets and derived data products concerning eutrophication, acidity and contaminants. The importance of the selected substances and other parameters relates to the Marine Strategy Framework Directive (MSFD). This aggregated dataset contains all unrestricted EMODnet Chemistry data on potential hazardous substances, despite the fact that some data might not be related to pollution (e.g. collected by deep corer). Temperature, salinity and additional parameters are included when available. It covers the Baltic Sea. Data were harmonised and validated by the ‘Swedish Meteorological and Hydrological Institute (SMHI)’ in Sweden.	
+The dataset contains water, sediment and biota profiles. The temporal coverage is 1987–2021 for water measurements, 1974–2021 for sediment measurements and 1998-2021 for biota measurements.
+Regional datasets concerning contaminants are automatically harvested and the resulting collections are harmonised and validated using ODV Software and following a common methodology for all sea regions ( https://doi.org/10.6092/8b52e8d7-dc92-4305-9337-7634a5cae3f4). Parameter names are based on P01 vocabulary, which relates to BODC Parameter Usage Vocabulary and is available at: https://vocab.nerc.ac.uk/search_nvs/P01/.
+The harmonised dataset can be downloaded as as an ODV spreadsheet, which is composed of a metadata header followed by tab separated values. This spreadsheet can be imported into ODV Software for visualisation (more information can be found at: https://www.seadatanet.org/Software/ODV). In addition, the same dataset is offered also as a txt file in a long/vertical format, in which each P01 measurement is a record line. Additionally, there are a series of columns that split P01 terms into subcomponents (substance, CAS number, matrix...).This transposed format is more adapted to worksheet applications (e.g. LibreOffice Calc).","https://doi.org/10.13120/dd1ffcfb-38be-4a9a-98d7-2c34a514438f; 
+https://emodnet-chemistry.webodv.awi.de/; 
+https://nodc.ogs.it/repository/aggregated-datasets/contaminants/EMD_Contaminants_Baltic_2022_unrestricted.zip; 
+https://doi.org/10.6092/8b52e8d7-dc92-4305-9337-7634a5cae3f4","DOI; 
+WWW:LINK-1.0-http--link"
+Baltic Sea - Contaminants aggregated datasets 1974/2021 v2023,"EMODnet Chemistry aims to provide access to marine chemistry datasets and derived data products concerning eutrophication, acidity and contaminants. The importance of the selected substances and other parameters relates to the Marine Strategy Framework Directive (MSFD). This aggregated dataset contains all unrestricted EMODnet Chemistry data on potential hazardous substances, despite the fact that some data might not be related to pollution (e.g. collected by deep corer). Temperature, salinity and additional parameters are included when available. It covers the Baltic Sea. Data were harmonised and validated by the ‘Swedish Meteorological and Hydrological Institute (SMHI)’ in Sweden.	
+The dataset contains water, sediment and biota profiles. The temporal coverage is 1987–2021 for water measurements, 1974–2021 for sediment measurements and 1972-2021 for biota measurements.
+Regional datasets concerning contaminants are automatically harvested and the resulting collections are harmonised and validated using ODV Software and following a common methodology for all sea regions ( https://doi.org/10.6092/8b52e8d7-dc92-4305-9337-7634a5cae3f4). Parameter names are based on P01 vocabulary, which relates to BODC Parameter Usage Vocabulary and is available at: https://vocab.nerc.ac.uk/search_nvs/P01/.
+The harmonised dataset can be downloaded as as an ODV spreadsheet, which is composed of a metadata header followed by tab separated values. This spreadsheet can be imported into ODV Software for visualisation (more information can be found at: https://www.seadatanet.org/Software/ODV). In addition, the same dataset is offered also as a txt file in a long/vertical format, in which each P01 measurement is a record line. Additionally, there are a series of columns that split P01 terms into subcomponents (substance, CAS number, matrix...).This transposed format is more adapted to worksheet applications (e.g. LibreOffice Calc).","https://emodnet-chemistry.webodv.awi.de/; 
+https://nodc.ogs.it/repository/aggregated-datasets/contaminants/EMD_Contaminants_Baltic_2023_unrestricted.zip; 
+https://doi.org/10.6092/8b52e8d7-dc92-4305-9337-7634a5cae3f4; 
+https://doi.org/10.13120/2b36b4dd-3048-4346-abcc-f6d4e8f65179","WWW:LINK; 
+WWW:DOWNLOAD-1.0-link--download; 
+WWW:LINK-1.0-http--link; 
+DOI"
+Baltic Sea - DIVA 4D 6-year analysis of Water body ammonium 1980/2016 v2018,"Moving 6-year analysis of Water body ammonium in the Baltic Sea. Four seasons (March-May, June-August, September-November, December-February). Every year of the time dimension corresponds to the 6-year centred average. Periods span between 1980-1985 and 2011-2016. Analyses for depths (m) (HELCOM standard depths): 0, 5, 10, 15, 20, 30, 40, 50, 60, 70, 80, 90, 100, 125, 150, 175, 200, 225, 250, 275, 300. 
+Data Sources: observational data from SeaDataNet/EMODnet Chemistry Data Network. Description of DIVA analysis: Geostatistical data analysis by DIVA (Data-Interpolating Variational Analysis) tool. GEBCO_08 Grid (30 arc-seconds) topography is used for the contouring preparation. Files contain analysed fields, error fields and combined field with the deepest value for each grid point selected. Also pre-masked fields using relative error threshold 0.3 and 0.5 are included. In the analyses the Correlation length and Signal to noise ratio were fixed to 0.7 and 1.0 respectively. Background fields were created using all data (1980-2016) for the given season. Log transformation (option 11) was used in the analyses. No detrending, advection constraints or weighting are applied. Unit is umol/l.","http://ec.oceanbrowser.net/emodnet/Python/web/wms?SERVICE=WMS&amp;REQUEST=GetCapabilities&amp;VERSION=1.3.0; 
+http://ec.oceanbrowser.net/emodnet/Python/web/wms?SERVICE=WMS&amp;REQUEST=GetCapabilities&amp;VERSION=1.3.0; 
+http://ec.oceanbrowser.net/emodnet/Python/web/wms?SERVICE=WMS&amp;REQUEST=GetCapabilities&amp;VERSION=1.3.0; 
+http://ec.oceanbrowser.net/emodnet/Python/web/wms?SERVICE=WMS&amp;REQUEST=GetCapabilities&amp;VERSION=1.3.0; 
+http://ec.oceanbrowser.net/emodnet/Python/web/wms?SERVICE=WMS&amp;REQUEST=GetCapabilities&amp;VERSION=1.3.0; 
+http://ec.oceanbrowser.net/emodnet/Python/web/wms?SERVICE=WMS&amp;REQUEST=GetCapabilities&amp;VERSION=1.3.0; 
+http://ec.oceanbrowser.net/emodnet/Python/web/wms?SERVICE=WMS&amp;REQUEST=GetCapabilities&amp;VERSION=1.3.0; 
+http://ec.oceanbrowser.net/emodnet/Python/web/wms?SERVICE=WMS&amp;REQUEST=GetCapabilities&amp;VERSION=1.3.0; 
+http://doi.org/10.6092/79dfd904-bb19-4581-bb6e-2b33e00acfb9; 
+http://opendap.oceanbrowser.net/thredds/dodsC/data/emodnet-domains/Baltic Sea/Winter (December-February) - 6-years running averages/Water_body_ammonium.4Danl.nc.html; 
+http://opendap.oceanbrowser.net/thredds/dodsC/data/emodnet-domains/Baltic Sea/Spring (March-May) - 6-years running averages/Water_body_ammonium.4Danl.nc.html; 
+http://opendap.oceanbrowser.net/thredds/dodsC/data/emodnet-domains/Baltic Sea/Summer (June-August) - 6-years running averages/Water_body_ammonium.4Danl.nc.html; 
+http://opendap.oceanbrowser.net/thredds/dodsC/data/emodnet-domains/Baltic Sea/Autumn (September-November) - 6-years running averages/Water_body_ammonium.4Danl.nc.html","OGC:WMS; 
+OGC:WMS; 
+OGC:WMS; 
+OGC:WMS; 
+OGC:WMS; 
+OGC:WMS; 
+OGC:WMS; 
+OGC:WMS; 
+WWW:DOWNLOAD-1.0-link--download; 
+WWW:DOWNLOAD-1.0-link--download; 
+WWW:DOWNLOAD-1.0-link--download; 
+WWW:DOWNLOAD-1.0-link--download"
+Baltic Sea - DIVAnd 6-year seasonal analysis of Water body chlorophyll-a 1974/2021 v2023,"Running 6-year analysis of Water body chlorophyll-a in the Baltic Sea. 
+    Four seasons (March-May, June-August, September-November, December-February). 
+    Every year of the time dimension corresponds to a 6-year centred average. 
+    Periods span between 1974-2021. 
+    Analyses for depths (m) (HELCOM standard depths): 0, 5, 10, 15, 20, 30.
+    
+    Data Sources: observational data from SeaDataNet/EMODnet Chemistry Data Network. 
+    Description of DIVA analysis: Geostatistical data analysis by DIVAnd (Data-Interpolating Variational Analysis in n dimensions) tool. 
+    GEBCO_08 Grid (30 arc-seconds) topography is used for the contouring preparation. 
+    Files contain analysed fields, error fields and combined field with the deepest value for each grid point selected. 
+    Also pre-masked fields using relative error threshold 0.3 and 0.5 are included. 
+    In the analyses the horizontal correlation length is fixed to 80 km and decreasing towards the coastline, 
+    the vertical correlation length is varying with depth.
+    Signal to noise ratio is fixed to 1.0. 
+    Background fields were created using data for the given time period and season. 
+    Log transformation was used in the analyses. No detrending, advection constraints or weighting are applied. 
+    Unit is mg/m3.","http://ec.oceanbrowser.net/emodnet/Python/web/wms?SERVICE=WMS&REQUEST=GetCapabilities&VERSION=1.3.0; 
+http://ec.oceanbrowser.net/emodnet/Python/web/wms?SERVICE=WMS&REQUEST=GetCapabilities&VERSION=1.3.0; 
+https://emodnet.ec.europa.eu/geoviewer/; 
+https://doi.org/10.13120/e1da99a3-037f-455d-bf65-2fe85337ca43; 
+http://opendap.oceanbrowser.net/thredds/dodsC/data/emodnet-domains/By_sea_regions/Baltic_Sea/Water_body_chlorophyll-a.4Danl.nc.html; 
+http://ec.oceanbrowser.net/data/emodnet-domains/By_sea_regions/Baltic_Sea/Water_body_chlorophyll-a.4Danl.nc","OGC:WMS; 
+OGC:WMS; 
+WWW:LINK; 
+DOI; 
+WWW:DOWNLOAD-1.0-link--download; 
+WWW:DOWNLOAD-1.0-link--download"
+Baltic Sea - DIVAnd 6-year seasonal analysis of Water body chlorophyll-a 1980/2018 v2021,"Moving 6-year analysis of Water body chlorophyll-a in the Baltic Sea. Four seasons (March-May, June-August, September-November, December-February). Every year of the time dimension corresponds to a 6-year centred average. Periods span between 1980-1985 and 2013-2018. Analyses for depths (m) (HELCOM standard depths): 0, 5, 10, 15, 20, 30, 40, 50, 60, 70, 80, 90, 100, 125, 150, 175, 200, 225, 250, 275, 300.
+
+Data Sources: observational data from SeaDataNet/EMODnet Chemistry Data Network. Description of DIVA analysis: Geostatistical data analysis by DIVA (Data-Interpolating Variational Analysis) tool. GEBCO Grid (30 arc-seconds) topography is used for the contouring preparation. Files contain analysed fields, error fields and combined field with the deepest value for each grid point selected. Also pre-masked fields using relative error threshold 0.3 and 0.5 are included. In the analyses the Correlation length in the horizontal direction were fixed to 80 km and in the vertical direction to 25 m. Signal to noise ratio were fixed to 1.0. Background fields were created using data for the given time period and season. Log transformation was used in the analyses. No detrending, advection constraints or weighting are applied. Unit is mg/m3.","http://ec.oceanbrowser.net/emodnet/Python/web/wms?SERVICE=WMS&REQUEST=GetCapabilities&VERSION=1.3.0; 
+http://ec.oceanbrowser.net/emodnet/Python/web/wms?SERVICE=WMS&REQUEST=GetCapabilities&VERSION=1.3.0; 
+https://emodnet.ec.europa.eu/geoviewer/; 
+https://doi.org/10.6092/66DCF80F-383C-4C70-842A-80EEAD8BD293; 
+http://opendap.oceanbrowser.net/thredds/dodsC/data/emodnet-domains/By_sea_regions/Baltic_Sea/Water_body_chlorophyll-a.4Danl.nc.html; 
+http://opendap.oceanbrowser.net/thredds/fileServer/data/emodnet-domains/By_sea_regions/Baltic_Sea/Water_body_chlorophyll-a.4Danl.nc","OGC:WMS; 
+OGC:WMS; 
+WWW:LINK; 
+DOI; 
+WWW:DOWNLOAD-1.0-link--download"
+Baltic Sea - DIVAnd 6-year seasonal analysis of Water body dissolved inorganic nitrogen (DIN) 1980/2018 v2021,"Moving 6-year analysis of Water body dissolved inorganic nitrogen (DIN) in the Baltic Sea. Four seasons (March-May, June-August, September-November, December-February). Every year of the time dimension corresponds to a 6-year centred average. Periods span between 1980-1985 and 2013-2018. Analyses for depths (m) (HELCOM standard depths): 0, 5, 10, 15, 20, 30, 40, 50, 60, 70, 80, 90, 100, 125, 150, 175, 200, 225, 250, 275, 300.
+
+Data Sources: observational data from SeaDataNet/EMODnet Chemistry Data Network. Description of DIVA analysis: Geostatistical data analysis by DIVA (Data-Interpolating Variational Analysis) tool. GEBCO Grid (30 arc-seconds) topography is used for the contouring preparation. Files contain analysed fields, error fields and combined field with the deepest value for each grid point selected. Also pre-masked fields using relative error threshold 0.3 and 0.5 are included. In the analyses the Correlation length in the horizontal direction were fixed to 80 km and in the vertical direction to 25 m. Signal to noise ratio were fixed to 1.0. Background fields were created using data for the given time period and season. Log transformation was used in the analyses. No detrending, advection constraints or weighting are applied. Unit is umol/l.","http://ec.oceanbrowser.net/emodnet/Python/web/wms?SERVICE=WMS&REQUEST=GetCapabilities&VERSION=1.3.0; 
+http://ec.oceanbrowser.net/emodnet/Python/web/wms?SERVICE=WMS&REQUEST=GetCapabilities&VERSION=1.3.0; 
+https://emodnet.ec.europa.eu/geoviewer/; 
+https://doi.org/10.6092/62BA9D08-2AD6-4742-8FA6-FDBB25585E5C; 
+http://opendap.oceanbrowser.net/thredds/dodsC/data/emodnet-domains/By_sea_regions/Baltic_Sea/Water_body_dissolved_inorganic_nitrogen.4Danl.nc.html; 
+http://opendap.oceanbrowser.net/thredds/fileServer/data/emodnet-domains/By_sea_regions/Baltic_Sea/Water_body_dissolved_inorganic_nitrogen.4Danl.nc","OGC:WMS; 
+OGC:WMS; 
+WWW:LINK; 
+DOI; 
+WWW:DOWNLOAD-1.0-link--download"
+Baltic Sea - DIVAnd 6-year seasonal analysis of Water body dissolved inorganic nitrogen 1975/2021 v2023,"Running 6-year analysis of Water body dissolved inorganic nitrogen in the Baltic Sea. 
+    Four seasons (March-May, June-August, September-November, December-February). 
+    Every year of the time dimension corresponds to a 6-year centred average. 
+    Periods span between 1975-2021. 
+    Analyses for depths (m) (HELCOM standard depths): 0, 5, 10, 15, 20, 30, 40, 50, 60, 70, 80, 90, 100, 125, 150, 175, 200, 225, 250, 275, 300.
+    
+    Data Sources: observational data from SeaDataNet/EMODnet Chemistry Data Network. 
+    Description of DIVA analysis: Geostatistical data analysis by DIVAnd (Data-Interpolating Variational Analysis in n dimensions) tool. 
+    GEBCO_08 Grid (30 arc-seconds) topography is used for the contouring preparation. 
+    Files contain analysed fields, error fields and combined field with the deepest value for each grid point selected. 
+    Also pre-masked fields using relative error threshold 0.3 and 0.5 are included. 
+    In the analyses the horizontal correlation length is fixed to 80 km and decreasing towards the coastline, 
+    the vertical correlation length is varying with depth.
+    Signal to noise ratio is fixed to 1.0. 
+    Background fields were created using data for the given time period and season. 
+    Log transformation was used in the analyses. No detrending, advection constraints or weighting are applied. 
+    Unit is umol/l.","http://ec.oceanbrowser.net/emodnet/Python/web/wms?SERVICE=WMS&REQUEST=GetCapabilities&VERSION=1.3.0; 
+http://ec.oceanbrowser.net/emodnet/Python/web/wms?SERVICE=WMS&REQUEST=GetCapabilities&VERSION=1.3.0; 
+https://emodnet.ec.europa.eu/geoviewer/; 
+https://doi.org/10.13120/3c0c6ebf-0942-4190-a9f6-0478e35dce07; 
+http://opendap.oceanbrowser.net/thredds/dodsC/data/emodnet-domains/By_sea_regions/Baltic_Sea/Water_body_dissolved_inorganic_nitrogen.4Danl.nc.html; 
+http://ec.oceanbrowser.net/data/emodnet-domains/By_sea_regions/Baltic_Sea/Water_body_dissolved_inorganic_nitrogen.4Danl.nc","OGC:WMS; 
+OGC:WMS; 
+WWW:LINK; 
+DOI; 
+WWW:DOWNLOAD-1.0-link--download; 
+WWW:DOWNLOAD-1.0-link--download"
+Baltic Sea - DIVAnd 6-year seasonal analysis of Water body dissolved oxygen concentration 1960/2021 v2023,"Running 6-year analysis of Water body dissolved oxygen concentration in the Baltic Sea. 
+    Four seasons (March-May, June-August, September-November, December-February). 
+    Every year of the time dimension corresponds to a 6-year centred average. 
+    Periods span between 1960-2021. 
+    Analyses for depths (m) (HELCOM standard depths): 0, 5, 10, 15, 20, 30, 40, 50, 60, 70, 80, 90, 100, 125, 150, 175, 200, 225, 250, 275, 300.
+    
+    Data Sources: observational data from SeaDataNet/EMODnet Chemistry Data Network. 
+    Description of DIVA analysis: Geostatistical data analysis by DIVAnd (Data-Interpolating Variational Analysis in n dimensions) tool. 
+    GEBCO_08 Grid (30 arc-seconds) topography is used for the contouring preparation. 
+    Files contain analysed fields, error fields and combined field with the deepest value for each grid point selected. 
+    Also pre-masked fields using relative error threshold 0.3 and 0.5 are included. 
+    In the analyses the horizontal correlation length is fixed to 80 km and decreasing towards the coastline, 
+    the vertical correlation length is varying with depth.
+    Signal to noise ratio is fixed to 1.0. 
+    Background fields were created using data for the given time period and season. 
+    Log transformation was used in the analyses. No detrending, advection constraints or weighting are applied. 
+    Unit is umol/l.","http://ec.oceanbrowser.net/emodnet/Python/web/wms?SERVICE=WMS&REQUEST=GetCapabilities&VERSION=1.3.0; 
+http://ec.oceanbrowser.net/emodnet/Python/web/wms?SERVICE=WMS&REQUEST=GetCapabilities&VERSION=1.3.0; 
+https://emodnet.ec.europa.eu/geoviewer/; 
+https://doi.org/10.13120/7b0764f4-aa3b-4a5f-8847-7345f37d7ecc; 
+http://opendap.oceanbrowser.net/thredds/dodsC/data/emodnet-domains/By_sea_regions/Baltic_Sea/Water_body_dissolved_oxygen_concentration.4Danl.nc.html; 
+http://ec.oceanbrowser.net/data/emodnet-domains/By_sea_regions/Baltic_Sea/Water_body_dissolved_oxygen_concentration.4Danl.nc","OGC:WMS; 
+OGC:WMS; 
+WWW:LINK; 
+DOI; 
+WWW:DOWNLOAD-1.0-link--download; 
+WWW:DOWNLOAD-1.0-link--download"
+Baltic Sea - DIVAnd 6-year seasonal analysis of Water body dissolved oxygen concentration 1980/2018 v2021,"Moving 6-year analysis of Water body dissolved oxygen concentration in the Baltic Sea. Four seasons (March-May, June-August, September-November, December-February). Every year of the time dimension corresponds to a 6-year centred average. Periods span between 1980-1985 and 2013-2018. Analyses for depths (m) (HELCOM standard depths): 0, 5, 10, 15, 20, 30, 40, 50, 60, 70, 80, 90, 100, 125, 150, 175, 200, 225, 250, 275, 300.
+
+Data Sources: observational data from SeaDataNet/EMODnet Chemistry Data Network. Description of DIVA analysis: Geostatistical data analysis by DIVA (Data-Interpolating Variational Analysis) tool. GEBCO Grid (30 arc-seconds) topography is used for the contouring preparation. Files contain analysed fields, error fields and combined field with the deepest value for each grid point selected. Also pre-masked fields using relative error threshold 0.3 and 0.5 are included. In the analyses the Correlation length in the horizontal direction were fixed to 80 km and in the vertical direction to 25 m. Signal to noise ratio were fixed to 1.0. Background fields were created using data for the given time period and season. Log transformation was used in the analyses. No detrending, advection constraints or weighting are applied. Unit is umol/l.","http://ec.oceanbrowser.net/emodnet/Python/web/wms?SERVICE=WMS&REQUEST=GetCapabilities&VERSION=1.3.0; 
+http://ec.oceanbrowser.net/emodnet/Python/web/wms?SERVICE=WMS&REQUEST=GetCapabilities&VERSION=1.3.0; 
+https://emodnet.ec.europa.eu/geoviewer/; 
+https://doi.org/10.6092/B5BB9EA1-4BDA-48A1-92B6-03645AC12FAE; 
+http://opendap.oceanbrowser.net/thredds/dodsC/data/emodnet-domains/By_sea_regions/Baltic_Sea/Water_body_dissolved_oxygen_concentration.4Danl.nc.html; 
+http://opendap.oceanbrowser.net/thredds/fileServer/data/emodnet-domains/By_sea_regions/Baltic_Sea/Water_body_dissolved_oxygen_concentration.4Danl.nc","OGC:WMS; 
+OGC:WMS; 
+WWW:LINK; 
+DOI; 
+WWW:DOWNLOAD-1.0-link--download"
+Baltic Sea - DIVAnd 6-year seasonal analysis of Water body phosphate 1975/2021 v2023,"Running 6-year analysis of Water body phosphate in the Baltic Sea. 
+    Four seasons (March-May, June-August, September-November, December-February). 
+    Every year of the time dimension corresponds to a 6-year centred average. 
+    Periods span between 1975-2021. 
+    Analyses for depths (m) (HELCOM standard depths): 0, 5, 10, 15, 20, 30, 40, 50, 60, 70, 80, 90, 100, 125, 150, 175, 200, 225, 250, 275, 300.
+    
+    Data Sources: observational data from SeaDataNet/EMODnet Chemistry Data Network. 
+    Description of DIVA analysis: Geostatistical data analysis by DIVAnd (Data-Interpolating Variational Analysis in n dimensions) tool. 
+    GEBCO_08 Grid (30 arc-seconds) topography is used for the contouring preparation. 
+    Files contain analysed fields, error fields and combined field with the deepest value for each grid point selected. 
+    Also pre-masked fields using relative error threshold 0.3 and 0.5 are included. 
+    In the analyses the horizontal correlation length is fixed to 80 km and decreasing towards the coastline, 
+    the vertical correlation length is varying with depth.
+    Signal to noise ratio is fixed to 1.0. 
+    Background fields were created using data for the given time period and season. 
+    Log transformation was used in the analyses. No detrending, advection constraints or weighting are applied. 
+    Unit is umol/l.","http://ec.oceanbrowser.net/emodnet/Python/web/wms?SERVICE=WMS&REQUEST=GetCapabilities&VERSION=1.3.0; 
+http://ec.oceanbrowser.net/emodnet/Python/web/wms?SERVICE=WMS&REQUEST=GetCapabilities&VERSION=1.3.0; 
+https://emodnet.ec.europa.eu/geoviewer/; 
+https://doi.org/10.13120/a7fe7c1a-473f-4082-8ef6-a07622e02445; 
+http://opendap.oceanbrowser.net/thredds/dodsC/data/emodnet-domains/By_sea_regions/Baltic_Sea/Water_body_phosphate.4Danl.nc.html; 
+http://ec.oceanbrowser.net/data/emodnet-domains/By_sea_regions/Baltic_Sea/Water_body_phosphate.4Danl.nc","OGC:WMS; 
+OGC:WMS; 
+WWW:LINK; 
+DOI; 
+WWW:DOWNLOAD-1.0-link--download; 
+WWW:DOWNLOAD-1.0-link--download"
+Baltic Sea - DIVAnd 6-year seasonal analysis of Water body phosphate 1980/2018 v2021,"Moving 6-year analysis of Water body phosphate in the Baltic Sea. Four seasons (March-May, June-August, September-November, December-February). Every year of the time dimension corresponds to a 6-year centred average. Periods span between 1980-1985 and 2013-2018. Analyses for depths (m) (HELCOM standard depths): 0, 5, 10, 15, 20, 30, 40, 50, 60, 70, 80, 90, 100, 125, 150, 175, 200, 225, 250, 275, 300.
+
+Data Sources: observational data from SeaDataNet/EMODnet Chemistry Data Network. Description of DIVA analysis: Geostatistical data analysis by DIVA (Data-Interpolating Variational Analysis) tool. GEBCO Grid (30 arc-seconds) topography is used for the contouring preparation. Files contain analysed fields, error fields and combined field with the deepest value for each grid point selected. Also pre-masked fields using relative error threshold 0.3 and 0.5 are included. In the analyses the Correlation length in the horizontal direction were fixed to 80 km and in the vertical direction to 25 m. Signal to noise ratio were fixed to 1.0. Background fields were created using data for the given time period and season. Log transformation was used in the analyses. No detrending, advection constraints or weighting are applied. Unit is umol/l.","http://ec.oceanbrowser.net/emodnet/Python/web/wms?SERVICE=WMS&REQUEST=GetCapabilities&VERSION=1.3.0; 
+http://ec.oceanbrowser.net/emodnet/Python/web/wms?SERVICE=WMS&REQUEST=GetCapabilities&VERSION=1.3.0; 
+https://emodnet.ec.europa.eu/geoviewer/; 
+https://doi.org/10.6092/E5BFC6FD-F287-4E1D-81AE-6AF0EA3F1EEF; 
+http://opendap.oceanbrowser.net/thredds/dodsC/data/emodnet-domains/By_sea_regions/Baltic_Sea/Water_body_phosphate.4Danl.nc.html; 
+http://opendap.oceanbrowser.net/thredds/fileServer/data/emodnet-domains/By_sea_regions/Baltic_Sea/Water_body_phosphate.4Danl.nc","OGC:WMS; 
+OGC:WMS; 
+WWW:LINK; 
+DOI; 
+WWW:DOWNLOAD-1.0-link--download"
+Baltic Sea - DIVAnd 6-year seasonal analysis of Water body silicate 1965/2021 v2023,"Running 6-year analysis of Water body silicate in the Baltic Sea. 
+    Four seasons (March-May, June-August, September-November, December-February). 
+    Every year of the time dimension corresponds to a 6-year centred average. 
+    Periods span between 1965-2021. 
+    Analyses for depths (m) (HELCOM standard depths): 0, 5, 10, 15, 20, 30, 40, 50, 60, 70, 80, 90, 100, 125, 150, 175, 200, 225, 250, 275, 300.
+    
+    Data Sources: observational data from SeaDataNet/EMODnet Chemistry Data Network. 
+    Description of DIVA analysis: Geostatistical data analysis by DIVAnd (Data-Interpolating Variational Analysis in n dimensions) tool. 
+    GEBCO_08 Grid (30 arc-seconds) topography is used for the contouring preparation. 
+    Files contain analysed fields, error fields and combined field with the deepest value for each grid point selected. 
+    Also pre-masked fields using relative error threshold 0.3 and 0.5 are included. 
+    In the analyses the horizontal correlation length is fixed to 80 km and decreasing towards the coastline, 
+    the vertical correlation length is varying with depth.
+    Signal to noise ratio is fixed to 1.0. 
+    Background fields were created using data for the given time period and season. 
+    Log transformation was used in the analyses. No detrending, advection constraints or weighting are applied. 
+    Unit is umol/l.","http://ec.oceanbrowser.net/emodnet/Python/web/wms?SERVICE=WMS&REQUEST=GetCapabilities&VERSION=1.3.0; 
+http://ec.oceanbrowser.net/emodnet/Python/web/wms?SERVICE=WMS&REQUEST=GetCapabilities&VERSION=1.3.0; 
+https://emodnet.ec.europa.eu/geoviewer/; 
+https://doi.org/10.13120/0bb1dcd8-f643-401a-ba58-46463969d2a3; 
+http://opendap.oceanbrowser.net/thredds/dodsC/data/emodnet-domains/By_sea_regions/Baltic_Sea/Water_body_silicate.4Danl.nc.html; 
+http://ec.oceanbrowser.net/data/emodnet-domains/By_sea_regions/Baltic_Sea/Water_body_silicate.4Danl.nc","OGC:WMS; 
+OGC:WMS; 
+WWW:LINK; 
+DOI; 
+WWW:DOWNLOAD-1.0-link--download; 
+WWW:DOWNLOAD-1.0-link--download"
+Baltic Sea - DIVAnd 6-year seasonal analysis of Water body silicate 1980/2018 v2021,"Moving 6-year analysis of Water body silicate in the Baltic Sea. Four seasons (March-May, June-August, September-November, December-February). Every year of the time dimension corresponds to a 6-year centred average. Periods span between 1980-1985 and 2013-2018. Analyses for depths (m) (HELCOM standard depths): 0, 5, 10, 15, 20, 30, 40, 50, 60, 70, 80, 90, 100, 125, 150, 175, 200, 225, 250, 275, 300.
+
+Data Sources: observational data from SeaDataNet/EMODnet Chemistry Data Network. Description of DIVA analysis: Geostatistical data analysis by DIVA (Data-Interpolating Variational Analysis) tool. GEBCO Grid (30 arc-seconds) topography is used for the contouring preparation. Files contain analysed fields, error fields and combined field with the deepest value for each grid point selected. Also pre-masked fields using relative error threshold 0.3 and 0.5 are included. In the analyses the Correlation length in the horizontal direction were fixed to 80 km and in the vertical direction to 25 m. Signal to noise ratio were fixed to 1.0. Background fields were created using data for the given time period and season. Log transformation was used in the analyses. No detrending, advection constraints or weighting are applied. Unit is umol/l.","http://ec.oceanbrowser.net/emodnet/Python/web/wms?SERVICE=WMS&REQUEST=GetCapabilities&VERSION=1.3.0; 
+http://ec.oceanbrowser.net/emodnet/Python/web/wms?SERVICE=WMS&REQUEST=GetCapabilities&VERSION=1.3.0; 
+https://emodnet.ec.europa.eu/geoviewer/; 
+https://doi.org/10.6092/C237ECE0-998E-463B-85D9-EBE8B5B008BB; 
+http://opendap.oceanbrowser.net/thredds/dodsC/data/emodnet-domains/By_sea_regions/Baltic_Sea/Water_body_silicate.4Danl.nc.html; 
+http://opendap.oceanbrowser.net/thredds/fileServer/data/emodnet-domains/By_sea_regions/Baltic_Sea/Water_body_silicate.4Danl.nc","OGC:WMS; 
+OGC:WMS; 
+WWW:LINK; 
+DOI; 
+WWW:DOWNLOAD-1.0-link--download"
+Baltic Sea - Eutrophication and Acidity aggregated datasets 1902/2017 v2018,"EMODnet Chemistry aims to provide access to marine chemistry data sets and derived data products concerning eutrophication, acidity and contaminants. The chemicals chosen reflect importance to the Marine Strategy Framework Directive (MSFD). ITS-90 water temperature and Water body salinity variables have been also included (as-is) to complete the Eutrophication and Acidity data. This aggregated dataset contains all unrestricted EMODnet Chemistry data on Eutrophication and Acidity (12 parameters with quality flag indicators), and covers the Baltic Sea with 187597 CDI stations. Data were aggregated and quality controlled by ""Swedish Meteorological and Hydrological Institute (SMHI)"" from Sweden.
+
+Regional datasets concerning eutrophication and acidity are automatically harvested and resulting collections are aggregated and quality controlled using ODV Software and following a common methodology for all Sea Regions ( https://doi.org/10.6092/9f75ad8a-ca32-4a72-bf69-167119b2cc12). When not present in original data, Water body nitrate plus nitrite was calculated by summing up the Nitrates and Nitrites. Same procedure was applied for Water body dissolved inorganic nitrogen (DIN) which was calculated by summing up the Nitrates, Nitrites and Ammonium.
+
+Parameter names are based on P35, EMODnet Chemistry aggregated parameter names vocabulary, which is available at: https://www.bodc.ac.uk/resources/vocabularies/vocabulary_search/P35/
+
+Detailed documentation is available at: https://doi.org/10.6092/ec8207ef-ed81-4ee5-bf48-e26ff16bf02e
+
+The aggregated dataset can be downloaded as ODV worksheet, which is composed of metadata header followed by tab separated values. This worksheet can be imported to ODV Software for visualisation (More information can be found at: https://www.seadatanet.org/Software/ODV )
+
+The original datasets can be searched and downloaded from EMODnet Chemistry Download Service: https://emodnet-chemistry.maris.nl/search","https://dx.doi.org/10.6092/595d233c-3f8c-4497-8bd2-52725ceff96b; 
+https://nodc.ogs.it/repository/aggregated-datasets/eutrophication/EMD_Eutrophication_Baltic_2018_unrestricted.zip","DOI; 
+WWW:DOWNLOAD-1.0-link--download"
+Baltic Sea - Eutrophication and Acidity aggregated datasets 1902/2020 v2021,"EMODnet Chemistry aims to provide access to marine chemistry data sets and derived data products concerning eutrophication, acidity and contaminants. The chemicals chosen reflect importance to the Marine Strategy Framework Directive (MSFD). ITS-90 water temperature and Water body salinity variables have been also included (as-is) to complete the Eutrophication and Acidity data. This aggregated dataset contains all unrestricted EMODnet Chemistry data on Eutrophication and Acidity (14 parameters with quality flag indicators), and covers the Baltic Sea with 175834 CDI stations (175778 Vertical profiles and 56 Time series). Vertical profiles temporal range is from 1902-08-05 to 2020-10-10. Time series temporal range is from 2010-01-12 to 2016-02-10. Data were aggregated and quality controlled by ""Swedish Meteorological and Hydrological Institute (SMHI)"" from Sweden.
+
+Regional datasets concerning eutrophication and acidity are automatically harvested and resulting collections are aggregated and quality controlled using ODV Software and following a common methodology for all Sea Regions ( https://doi.org/10.6092/9f75ad8a-ca32-4a72-bf69-167119b2cc12). When not present in original data, Water body nitrate plus nitrite was calculated by summing up the Nitrates and Nitrites. Same procedure was applied for Water body dissolved inorganic nitrogen (DIN) which was calculated by summing up the Nitrates, Nitrites and Ammonium.
+
+Parameter names are based on P35, EMODnet Chemistry aggregated parameter names vocabulary, which is available at: https://www.bodc.ac.uk/resources/vocabularies/vocabulary_search/P35/
+
+Detailed documentation is available at: https://dx.doi.org/10.6092/4e85717a-a2c9-454d-ba0d-30b89f742713
+
+Explore and extract data at: https://emodnet-chemistry.webodv.awi.de/eutrophication%3EBaltic
+
+The aggregated dataset can also be downloaded as ODV collection and spreadsheet, which is composed of metadata header followed by tab separated values. This spreadsheet can be imported to ODV Software for visualisation (More information can be found at: https://www.seadatanet.org/Software/ODV )
+
+The original datasets can be searched and downloaded from EMODnet Chemistry Chemistry CDI Data and Discovery Access Service: https://emodnet-chemistry.maris.nl/search","https://doi.org/10.6092/w67j-4p80; 
+https://nodc.ogs.it/repository/aggregated-datasets/eutrophication/EMD_Eutrophication_Baltic_2021_unrestricted.zip; 
+https://emodnet-chemistry.webodv.awi.de/","DOI; 
+WWW:DOWNLOAD-1.0-link--download"
+Baltic Sea - Eutrophication and Acidity aggregated datasets 1902/2022 v2022,"EMODnet Chemistry aims to provide access to marine chemistry datasets and derived data products concerning eutrophication, acidity and contaminants. The importance of the selected substances and other parameters relates to the Marine Strategy Framework Directive (MSFD). This aggregated dataset contains all unrestricted EMODnet Chemistry data on eutrophication and acidity, and covers the Baltic Sea. Data were aggregated and quality controlled by ""Swedish Meteorological and Hydrological Institute (SMHI)"" in Sweden.
+ITS-90 water temperature and water body salinity variables have also been included ('as are') to complete the eutrophication and acidity data. If you use these variables for calculations, please refer to SeaDataNet for the quality flags: https://www.seadatanet.org/Products/Aggregated-datasets.
+Regional datasets concerning eutrophication and acidity are automatically harvested, and the resulting collections are aggregated and quality controlled using ODV Software and following a common methodology for all sea regions ( https://doi.org/10.13120/8xm0-5m67). Parameter names are based on P35 vocabulary, which relates to EMODnet Chemistry aggregated parameter names and is available at: https://vocab.nerc.ac.uk/search_nvs/P35/.
+When not present in original data, water body nitrate plus nitrite was calculated by summing all nitrate and nitrite parameters. The same procedure was applied for water body dissolved inorganic nitrogen (DIN), which was calculated by summing all nitrate, nitrite, and ammonium parameters. Concentrations per unit mass were converted to a unit volume using a constant density of 1.25 kg/L.
+The aggregated dataset can also be downloaded as an ODV collection and spreadsheet, which is composed of a metadata header followed by tab separated values. This spreadsheet can be imported to ODV Software for visualisation (more information can be found at: https://www.seadatanet.org/Software/ODV).","https://doi.org/10.13120/0abf2a03-f1a9-4f68-be9e-b87504f537c1; 
+https://nodc.ogs.it/repository/aggregated-datasets/eutrophication/EMD_Eutrophication_Baltic_2022_unrestricted.zip; 
+https://emodnet-chemistry.webodv.awi.de/; 
+https://doi.org/10.13120/8xm0-5m67","DOI; 
+WWW:DOWNLOAD-1.0-link--download; 
+WWW:LINK-1.0-http--link"
+Baltic Sea - Eutrophication and Acidity aggregated datasets 1902/2022 v2023,"EMODnet Chemistry aims to provide access to marine chemistry datasets and derived data products concerning eutrophication, acidity and contaminants. The importance of the selected substances and other parameters relates to the Marine Strategy Framework Directive (MSFD). This aggregated dataset contains all unrestricted EMODnet Chemistry data on eutrophication and acidity, and covers the Baltic Sea. Data were aggregated and quality controlled by ""Swedish Meteorological and Hydrological Institute (SMHI)"" in Sweden.
+ITS-90 water temperature and water body salinity variables have also been included ('as are') to complete the eutrophication and acidity data. If you use these variables for calculations, please refer to SeaDataNet for the quality flags: https://www.seadatanet.org/Products/Aggregated-datasets.
+Regional datasets concerning eutrophication and acidity are automatically harvested, and the resulting collections are aggregated and quality controlled using ODV Software and following a common methodology for all sea regions ( https://doi.org/10.13120/8xm0-5m67). Parameter names are based on P35 vocabulary, which relates to EMODnet Chemistry aggregated parameter names and is available at: https://vocab.nerc.ac.uk/search_nvs/P35/.
+When not present in original data, water body nitrate plus nitrite was calculated by summing all nitrate and nitrite parameters. The same procedure was applied for water body dissolved inorganic nitrogen (DIN), which was calculated by summing all nitrate, nitrite, and ammonium parameters. Concentrations per unit mass were converted to a unit volume using a constant density of 1.25 kg/L.
+The aggregated dataset can also be downloaded as an ODV collection and spreadsheet, which is composed of a metadata header followed by tab separated values. This spreadsheet can be imported to ODV Software for visualisation (more information can be found at: https://www.seadatanet.org/Software/ODV).","https://nodc.ogs.it/repository/aggregated-datasets/eutrophication/EMD_Eutrophication_Baltic_2023_unrestricted.zip; 
+https://emodnet-chemistry.webodv.awi.de/; 
+https://doi.org/10.13120/8xm0-5m67; 
+https://doi.org/10.13120/a54e0103-137a-4237-8857-005c4f48358e","WWW:DOWNLOAD-1.0-link--download; 
+WWW:LINK; 
+WWW:LINK-1.0-http--link; 
+DOI"
+Baltic Sea - Eutrophication and Acidity aggregated datasets 1902/2022 v2024,"EMODnet Chemistry aims to provide access to marine chemistry datasets and derived data products concerning eutrophication, acidity and contaminants. The importance of the selected substances and other parameters relates to the Marine Strategy Framework Directive (MSFD). This aggregated dataset contains all unrestricted EMODnet Chemistry data on eutrophication and acidity, and covers the Baltic Sea. Data were aggregated and quality controlled by ""Swedish Meteorological and Hydrological Institute (SMHI)"" in Sweden.
+ITS-90 water temperature and water body salinity variables have also been included ('as are') to complete the eutrophication and acidity data. If you use these variables for calculations, please refer to SeaDataNet for the quality flags: https://www.seadatanet.org/Products/Aggregated-datasets.
+Regional datasets concerning eutrophication and acidity are automatically harvested, and the resulting collections are aggregated and quality controlled using ODV Software and following a common methodology for all sea regions ( https://doi.org/10.13120/8xm0-5m67). Parameter names are based on P35 vocabulary, which relates to EMODnet Chemistry aggregated parameter names and is available at: https://vocab.nerc.ac.uk/search_nvs/P35/.
+When not present in original data, water body nitrate plus nitrite was calculated by summing all nitrate and nitrite parameters. The same procedure was applied for water body dissolved inorganic nitrogen (DIN), which was calculated by summing all nitrate, nitrite, and ammonium parameters. Concentrations per unit mass were converted to a unit volume using a constant density of 1.25 kg/L.
+The aggregated dataset can also be downloaded as an ODV collection and spreadsheet, which is composed of a metadata header followed by tab separated values. This spreadsheet can be imported to ODV Software for visualisation (more information can be found at: https://www.seadatanet.org/Software/ODV).","https://nodc.ogs.it/repository/aggregated-datasets/eutrophication/EMD_Eutrophication_Baltic_2024_unrestricted.zip; 
+https://emodnet-chemistry.webodv.awi.de/; 
+https://doi.org/10.13120/8xm0-5m67; 
+https://doi.org/10.13120/fddf7d69-3787-4c7f-a8b9-c2eef2b7624b","WWW:DOWNLOAD-1.0-link--download; 
+WWW:LINK; 
+WWW:LINK-1.0-http--link; 
+DOI"
+Baltic Sea - Gulf of Riga - DIVAnd 4D seasonal analysis of Water body chlorophyll-a 1994/2019 v2021,"Water body chlorophyll-a - Seasonal Climatology for Gulf of Riga for the period 1994-2019 on the domain: Lon 22.3-25.0°E, Lat 56.8-58.4°N. 
+Data Sources: observational data from SeaDataNet/EMODnet Chemistry Data Network.
+Description of DIVA analysis: The computation was done with the DIVAnd (Data-Interpolating Variational Analysis in n dimensions), version 2.7, using GEBCO 30sec topography for the spatial connectivity of water masses. Horizontal correlation length of 25 km and vertical correlation length of 10 m. Depth range: 0.0, 2.5, 5, 10, 15, 20, 25, 30, 40, 50 m. Units: mg/m3. 
+The horizontal resolution of the produced DIVAnd maps grids is 0.01 degrees.","http://ec.oceanbrowser.net/emodnet/Python/web/wms?SERVICE=WMS&REQUEST=GetCapabilities&VERSION=1.3.0; 
+https://emodnet.ec.europa.eu/geoviewer/; 
+https://doi.org/10.6092/8fq5-b416; 
+http://opendap.oceanbrowser.net/thredds/dodsC/data/emodnet-domains/Coastal_areas/Baltic_Sea_-_Gulf_of_Riga/Water_body_chlorophyll-a.nc.html; 
+http://opendap.oceanbrowser.net/thredds/fileServer/data/emodnet-domains/Coastal_areas/Baltic_Sea_-_Gulf_of_Riga/Water_body_chlorophyll-a.nc; 
+https://ec.oceanbrowser.net/emodnet/Python/web/wms?SERVICE=WMS&REQUEST=GetCapabilities&VERSION=1.3.0","OGC:WMS; 
+WWW:LINK; 
+DOI; 
+WWW:DOWNLOAD-1.0-link--download; 
+WWW:DOWNLOAD-1.0-link--download; 
+OGC:WMS"
+Baltic Sea - Gulf of Riga - DIVAnd 4D seasonal analysis of Water body chlorophyll-a 2001/2021 v2023,"Water body chlorophyll-a - Seasonal Climatology for Gulf of Riga for the period  2001-2021. 
+    Four seasons (March-May, June-August, September-November, December-February). 
+    Analyses for depths (m) (HELCOM standard depths): 0, 5, 10, 15, 20, 25, 30, 40.
+    
+    Data Sources: observational data from SeaDataNet/EMODnet Chemistry Data Network.
+    
+    Description of DIVAnd analysis: Geostatistical data analysis by DIVA (Data-Interpolating Variational Analysis) tool. 
+    GEBCO_04 Grid (30 arc-seconds) topography is used for the contouring preparation. 
+    Files contain analysed fields, error fields and combined field with the deepest value for each grid point selected. 
+    Also pre-masked fields using relative error threshold 0.3 and 0.5 are included. 
+    In the analyses the horizontal correlation length is fixed to 25 km and decreasing towards the coastline, 
+    the vertical correlation length is varying with depth.
+    Signal to noise ratio were fixed to 1.0. 
+    Log transformation was used in the analyses. No detrending, advection constraints or weighting are applied. 
+    The horizontal resolution of the produced DIVAnd maps grids is 0.01 degrees.
+    Unit is mg/m3.","http://ec.oceanbrowser.net/emodnet/Python/web/wms?SERVICE=WMS&REQUEST=GetCapabilities&VERSION=1.3.0; 
+http://ec.oceanbrowser.net/emodnet/Python/web/wms?SERVICE=WMS&REQUEST=GetCapabilities&VERSION=1.3.0; 
+https://emodnet.ec.europa.eu/geoviewer/; 
+https://doi.org/10.13120/eea90fe0-0753-4d90-8c03-45d47627c2e4; 
+http://opendap.oceanbrowser.net/thredds/dodsC/data/emodnet-domains/Coastal_areas/Baltic_Sea_-_Gulf_of_Riga/Water_body_chlorophyll-a.nc.html; 
+http://ec.oceanbrowser.net/data/emodnet-domains/Coastal_areas/Baltic_Sea_-_Gulf_of_Riga/Water_body_chlorophyll-a.nc","OGC:WMS; 
+OGC:WMS; 
+WWW:LINK; 
+DOI; 
+WWW:DOWNLOAD-1.0-link--download; 
+WWW:DOWNLOAD-1.0-link--download"
+Baltic Sea - Gulf of Riga - DIVAnd 4D seasonal analysis of Water body dissolved inorganic nitrogen (DIN) 1994/2019 v2021,"Water body dissolved inorganic nitrogen (DIN) - Seasonal Climatology for Gulf of Riga for the period 1994-2019 on the domain: Lon 22.3-25.0°E, Lat 56.8-58.4°N. 
+Data Sources: observational data from SeaDataNet/EMODnet Chemistry Data Network.
+Description of DIVA analysis: The computation was done with the DIVAnd (Data-Interpolating Variational Analysis in n dimensions), version 2.7, using GEBCO 30sec topography for the spatial connectivity of water masses. Horizontal correlation length of 25 km and vertical correlation length of 10 m. Depth range: 0.0, 2.5, 5, 10, 15, 20, 25, 30, 40, 50 m. Units: µmol/l. 
+The horizontal resolution of the produced DIVAnd maps grids is 0.01 degrees.","http://ec.oceanbrowser.net/emodnet/Python/web/wms?SERVICE=WMS&REQUEST=GetCapabilities&VERSION=1.3.0; 
+http://ec.oceanbrowser.net/emodnet/Python/web/wms?SERVICE=WMS&REQUEST=GetCapabilities&VERSION=1.3.0; 
+https://emodnet.ec.europa.eu/geoviewer/; 
+https://doi.org/10.6092/yftm-cq55; 
+http://opendap.oceanbrowser.net/thredds/dodsC/data/emodnet-domains/Coastal_areas/Baltic_Sea_-_Gulf_of_Riga/Water_body_dissolved_inorganic_nitrogen.nc.html; 
+http://opendap.oceanbrowser.net/thredds/fileServer/data/emodnet-domains/Coastal_areas/Baltic_Sea_-_Gulf_of_Riga/Water_body_dissolved_inorganic_nitrogen.nc","OGC:WMS; 
+OGC:WMS; 
+WWW:LINK; 
+DOI; 
+WWW:DOWNLOAD-1.0-link--download; 
+WWW:DOWNLOAD-1.0-link--download"
+Baltic Sea - Gulf of Riga - DIVAnd 4D seasonal analysis of Water body dissolved inorganic nitrogen 1995/2021 v2023,"Water body dissolved inorganic nitrogen - Seasonal Climatology for Gulf of Riga for the period  1995-2021. 
+    Four seasons (March-May, June-August, September-November, December-February). 
+    Analyses for depths (m) (HELCOM standard depths): 0, 5, 10, 15, 20, 25, 30, 40, 50.
+    
+    Data Sources: observational data from SeaDataNet/EMODnet Chemistry Data Network.
+    
+    Description of DIVAnd analysis: Geostatistical data analysis by DIVA (Data-Interpolating Variational Analysis) tool. 
+    GEBCO_04 Grid (30 arc-seconds) topography is used for the contouring preparation. 
+    Files contain analysed fields, error fields and combined field with the deepest value for each grid point selected. 
+    Also pre-masked fields using relative error threshold 0.3 and 0.5 are included. 
+    In the analyses the horizontal correlation length is fixed to 25 km and decreasing towards the coastline, 
+    the vertical correlation length is varying with depth.
+    Signal to noise ratio were fixed to 1.0. 
+    Log transformation was used in the analyses. No detrending, advection constraints or weighting are applied. 
+    The horizontal resolution of the produced DIVAnd maps grids is 0.01 degrees.
+    Unit is umol/l.","http://ec.oceanbrowser.net/emodnet/Python/web/wms?SERVICE=WMS&REQUEST=GetCapabilities&VERSION=1.3.0; 
+http://ec.oceanbrowser.net/emodnet/Python/web/wms?SERVICE=WMS&REQUEST=GetCapabilities&VERSION=1.3.0; 
+https://emodnet.ec.europa.eu/geoviewer/; 
+https://doi.org/10.13120/e4928a73-9ef1-4a43-b67c-9da4349237f0; 
+http://opendap.oceanbrowser.net/thredds/dodsC/data/emodnet-domains/Coastal_areas/Baltic_Sea_-_Gulf_of_Riga/Water_body_dissolved_inorganic_nitrogen.nc.html; 
+http://ec.oceanbrowser.net/data/emodnet-domains/Coastal_areas/Baltic_Sea_-_Gulf_of_Riga/Water_body_dissolved_inorganic_nitrogen.nc","OGC:WMS; 
+OGC:WMS; 
+WWW:LINK; 
+DOI; 
+WWW:DOWNLOAD-1.0-link--download; 
+WWW:DOWNLOAD-1.0-link--download"
+Baltic Sea - Gulf of Riga - DIVAnd 4D seasonal analysis of Water body dissolved oxygen concentration 1994/2019 v2021,"Water body dissolved oxygen concentration - Seasonal Climatology for Gulf of Riga for the period 1994-2019 on the domain: Lon 22.3-25.0°E, Lat 56.8-58.4°N. 
+Data Sources: observational data from SeaDataNet/EMODnet Chemistry Data Network.
+Description of DIVA analysis: The computation was done with the DIVAnd (Data-Interpolating Variational Analysis in n dimensions), version 2.7, using GEBCO 30sec topography for the spatial connectivity of water masses. Horizontal correlation length of 25 km and vertical correlation length of 10 m. Depth range: 0.0, 2.5, 5, 10, 15, 20, 25, 30, 40, 50 m. Units: µmol/l. 
+The horizontal resolution of the produced DIVAnd maps grids is 0.01 degrees.","http://ec.oceanbrowser.net/emodnet/Python/web/wms?SERVICE=WMS&REQUEST=GetCapabilities&VERSION=1.3.0; 
+http://ec.oceanbrowser.net/emodnet/Python/web/wms?SERVICE=WMS&REQUEST=GetCapabilities&VERSION=1.3.0; 
+https://emodnet.ec.europa.eu/geoviewer/; 
+https://doi.org/10.6092/1b8g-8179; 
+http://opendap.oceanbrowser.net/thredds/dodsC/data/emodnet-domains/Coastal_areas/Baltic_Sea_-_Gulf_of_Riga/Water_body_dissolved_oxygen_concentration.nc.html; 
+http://opendap.oceanbrowser.net/thredds/fileServer/data/emodnet-domains/Coastal_areas/Baltic_Sea_-_Gulf_of_Riga/Water_body_dissolved_oxygen_concentration.nc","OGC:WMS; 
+OGC:WMS; 
+WWW:LINK; 
+DOI; 
+WWW:DOWNLOAD-1.0-link--download; 
+WWW:DOWNLOAD-1.0-link--download"
+Baltic Sea - Gulf of Riga - DIVAnd 4D seasonal analysis of Water body dissolved oxygen concentration 1995/2021 v2023,"Water body dissolved oxygen concentration - Seasonal Climatology for Gulf of Riga for the period  1995-2021. 
+    Four seasons (March-May, June-August, September-November, December-February). 
+    Analyses for depths (m) (HELCOM standard depths): 0, 5, 10, 15, 20, 25, 30, 40, 50.
+    
+    Data Sources: observational data from SeaDataNet/EMODnet Chemistry Data Network.
+    
+    Description of DIVAnd analysis: Geostatistical data analysis by DIVA (Data-Interpolating Variational Analysis) tool. 
+    GEBCO_04 Grid (30 arc-seconds) topography is used for the contouring preparation. 
+    Files contain analysed fields, error fields and combined field with the deepest value for each grid point selected. 
+    Also pre-masked fields using relative error threshold 0.3 and 0.5 are included. 
+    In the analyses the horizontal correlation length is fixed to 25 km and decreasing towards the coastline, 
+    the vertical correlation length is varying with depth.
+    Signal to noise ratio were fixed to 1.0. 
+    Log transformation was used in the analyses. No detrending, advection constraints or weighting are applied. 
+    The horizontal resolution of the produced DIVAnd maps grids is 0.01 degrees.
+    Unit is umol/l.","http://ec.oceanbrowser.net/emodnet/Python/web/wms?SERVICE=WMS&REQUEST=GetCapabilities&VERSION=1.3.0; 
+http://ec.oceanbrowser.net/emodnet/Python/web/wms?SERVICE=WMS&REQUEST=GetCapabilities&VERSION=1.3.0; 
+https://emodnet.ec.europa.eu/geoviewer/; 
+https://doi.org/10.13120/4c9f5786-5d03-40e4-9468-0898283d2a01; 
+http://opendap.oceanbrowser.net/thredds/dodsC/data/emodnet-domains/Coastal_areas/Baltic_Sea_-_Gulf_of_Riga/Water_body_dissolved_oxygen_concentration.nc.html; 
+http://ec.oceanbrowser.net/data/emodnet-domains/Coastal_areas/Baltic_Sea_-_Gulf_of_Riga/Water_body_dissolved_oxygen_concentration.nc","OGC:WMS; 
+OGC:WMS; 
+WWW:LINK; 
+DOI; 
+WWW:DOWNLOAD-1.0-link--download; 
+WWW:DOWNLOAD-1.0-link--download"
+Baltic Sea - Gulf of Riga - DIVAnd 4D seasonal analysis of Water body phosphate 1994/2018 v2021,"Water body phosphate - Seasonal Climatology for Gulf of Riga for the period 1994-2018 on the domain: Lon 22.3-25.0°E, Lat 56.8-58.4°N. 
+Data Sources: observational data from SeaDataNet/EMODnet Chemistry Data Network.
+Description of DIVA analysis: The computation was done with the DIVAnd (Data-Interpolating Variational Analysis in n dimensions), version 2.7, using GEBCO 30sec topography for the spatial connectivity of water masses. Horizontal correlation length of 25 km and vertical correlation length of 10 m. Depth range: 0.0, 2.5, 5, 10, 15, 20, 25, 30, 40, 50 m. Units: µmol/l. 
+The horizontal resolution of the produced DIVAnd maps grids is 0.01 degrees.","http://ec.oceanbrowser.net/emodnet/Python/web/wms?SERVICE=WMS&REQUEST=GetCapabilities&VERSION=1.3.0; 
+http://ec.oceanbrowser.net/emodnet/Python/web/wms?SERVICE=WMS&REQUEST=GetCapabilities&VERSION=1.3.0; 
+https://emodnet.ec.europa.eu/geoviewer/; 
+https://doi.org/10.6092/r54c-h187; 
+http://opendap.oceanbrowser.net/thredds/dodsC/data/emodnet-domains/Coastal_areas/Baltic_Sea_-_Gulf_of_Riga/Water_body_phosphate.nc.html; 
+http://opendap.oceanbrowser.net/thredds/fileServer/data/emodnet-domains/Coastal_areas/Baltic_Sea_-_Gulf_of_Riga/Water_body_phosphate.nc","OGC:WMS; 
+OGC:WMS; 
+WWW:LINK; 
+DOI; 
+WWW:DOWNLOAD-1.0-link--download; 
+WWW:DOWNLOAD-1.0-link--download"
+Baltic Sea - Gulf of Riga - DIVAnd 4D seasonal analysis of Water body phosphate 1995/2021 v2023,"Water body phosphate - Seasonal Climatology for Gulf of Riga for the period  1995-2021. 
+    Four seasons (March-May, June-August, September-November, December-February). 
+    Analyses for depths (m) (HELCOM standard depths): 0, 5, 10, 15, 20, 25, 30, 40, 50.
+    
+    Data Sources: observational data from SeaDataNet/EMODnet Chemistry Data Network.
+    
+    Description of DIVAnd analysis: Geostatistical data analysis by DIVA (Data-Interpolating Variational Analysis) tool. 
+    GEBCO_04 Grid (30 arc-seconds) topography is used for the contouring preparation. 
+    Files contain analysed fields, error fields and combined field with the deepest value for each grid point selected. 
+    Also pre-masked fields using relative error threshold 0.3 and 0.5 are included. 
+    In the analyses the horizontal correlation length is fixed to 25 km and decreasing towards the coastline, 
+    the vertical correlation length is varying with depth.
+    Signal to noise ratio were fixed to 1.0. 
+    Log transformation was used in the analyses. No detrending, advection constraints or weighting are applied. 
+    The horizontal resolution of the produced DIVAnd maps grids is 0.01 degrees.
+    Unit is umol/l.","http://ec.oceanbrowser.net/emodnet/Python/web/wms?SERVICE=WMS&REQUEST=GetCapabilities&VERSION=1.3.0; 
+http://ec.oceanbrowser.net/emodnet/Python/web/wms?SERVICE=WMS&REQUEST=GetCapabilities&VERSION=1.3.0; 
+https://emodnet.ec.europa.eu/geoviewer/; 
+https://doi.org/10.13120/cdb144e5-109a-4165-b69d-10af153a03c1; 
+http://opendap.oceanbrowser.net/thredds/dodsC/data/emodnet-domains/Coastal_areas/Baltic_Sea_-_Gulf_of_Riga/Water_body_phosphate.nc.html; 
+http://ec.oceanbrowser.net/data/emodnet-domains/Coastal_areas/Baltic_Sea_-_Gulf_of_Riga/Water_body_phosphate.nc","OGC:WMS; 
+OGC:WMS; 
+WWW:LINK; 
+DOI; 
+WWW:DOWNLOAD-1.0-link--download; 
+WWW:DOWNLOAD-1.0-link--download"
+Baltic Sea - Gulf of Riga - DIVAnd 4D seasonal analysis of Water body silicate 1994/2019 v2021,"Water body silicate - Seasonal Climatology for Gulf of Riga for the period 1994-2019 on the domain: Lon 22.3-25.0°E, Lat 56.8-58.4°N. 
+Data Sources: observational data from SeaDataNet/EMODnet Chemistry Data Network.
+Description of DIVA analysis: The computation was done with the DIVAnd (Data-Interpolating Variational Analysis in n dimensions), version 2.7, using GEBCO 30sec topography for the spatial connectivity of water masses. Horizontal correlation length of 25 km and vertical correlation length of 10 m. Depth range: 0.0, 2.5, 5, 10, 15, 20, 25, 30, 40, 50 m. Units: µmol/l. 
+The horizontal resolution of the produced DIVAnd maps grids is 0.01 degrees.","http://ec.oceanbrowser.net/emodnet/Python/web/wms?SERVICE=WMS&REQUEST=GetCapabilities&VERSION=1.3.0; 
+http://ec.oceanbrowser.net/emodnet/Python/web/wms?SERVICE=WMS&REQUEST=GetCapabilities&VERSION=1.3.0; 
+https://emodnet.ec.europa.eu/geoviewer/; 
+https://doi.org/10.6092/g40g-be21; 
+http://opendap.oceanbrowser.net/thredds/dodsC/data/emodnet-domains/Coastal_areas/Baltic_Sea_-_Gulf_of_Riga/Water_body_silicate.nc.html; 
+http://opendap.oceanbrowser.net/thredds/fileServer/data/emodnet-domains/Coastal_areas/Baltic_Sea_-_Gulf_of_Riga/Water_body_silicate.nc","OGC:WMS; 
+OGC:WMS; 
+WWW:LINK; 
+DOI; 
+WWW:DOWNLOAD-1.0-link--download; 
+WWW:DOWNLOAD-1.0-link--download"
+Baltic Sea - Gulf of Riga - DIVAnd 4D seasonal analysis of Water body silicate 1995/2021 v2023,"Water body silicate - Seasonal Climatology for Gulf of Riga for the period  1995-2021. 
+    Four seasons (March-May, June-August, September-November, December-February). 
+    Analyses for depths (m) (HELCOM standard depths): 0, 5, 10, 15, 20, 25, 30, 40, 50.
+    
+    Data Sources: observational data from SeaDataNet/EMODnet Chemistry Data Network.
+    
+    Description of DIVAnd analysis: Geostatistical data analysis by DIVA (Data-Interpolating Variational Analysis) tool. 
+    GEBCO_04 Grid (30 arc-seconds) topography is used for the contouring preparation. 
+    Files contain analysed fields, error fields and combined field with the deepest value for each grid point selected. 
+    Also pre-masked fields using relative error threshold 0.3 and 0.5 are included. 
+    In the analyses the horizontal correlation length is fixed to 25 km and decreasing towards the coastline, 
+    the vertical correlation length is varying with depth.
+    Signal to noise ratio were fixed to 1.0. 
+    Log transformation was used in the analyses. No detrending, advection constraints or weighting are applied. 
+    The horizontal resolution of the produced DIVAnd maps grids is 0.01 degrees.
+    Unit is umol/l.","http://ec.oceanbrowser.net/emodnet/Python/web/wms?SERVICE=WMS&REQUEST=GetCapabilities&VERSION=1.3.0; 
+http://ec.oceanbrowser.net/emodnet/Python/web/wms?SERVICE=WMS&REQUEST=GetCapabilities&VERSION=1.3.0; 
+https://emodnet.ec.europa.eu/geoviewer/; 
+https://doi.org/10.13120/13588424-5d4d-43c6-8b04-4c871c864c0e; 
+http://opendap.oceanbrowser.net/thredds/dodsC/data/emodnet-domains/Coastal_areas/Baltic_Sea_-_Gulf_of_Riga/Water_body_silicate.nc.html; 
+http://ec.oceanbrowser.net/data/emodnet-domains/Coastal_areas/Baltic_Sea_-_Gulf_of_Riga/Water_body_silicate.nc","OGC:WMS; 
+OGC:WMS; 
+WWW:LINK; 
+DOI; 
+WWW:DOWNLOAD-1.0-link--download; 
+WWW:DOWNLOAD-1.0-link--download"
+Baltic Sea DIVA 4D analysis of Water_body_ammonium,"Units: umol/l. Method: spatial interpolation produced with DIVA (Data-Interpolating Variational Analysis). URL: http://modb.oce.ulg.ac.be/DIVA.
+		
+Comment: Every year of the time dimension corresponds to a 10-year centred average for each season :
+- winter season (December-February),
+- spring (March-May),
+- summer (June-August),
+- autumn (September-November).
+
+Diva settings: Snr=1.0, CL=0.7","http://dx.doi.org/10.6092/105C648E-311E-4F2F-AAC9-400933F03BB3; 
+http://opendap.oceanbrowser.net/thredds/dodsC/data/emodnet-projects/Phase-2/Baltic%20Sea/Winter%20(December-February)%20-%2010-years%20running%20averages/Water_body_ammonium.4Danl.nc.html; 
+http://opendap.oceanbrowser.net/thredds/dodsC/data/emodnet-projects/Phase-2/Baltic%20Sea/Spring%20(March-May)%20-%2010-years%20running%20averages/Water_body_ammonium.4Danl.nc.html; 
+http://opendap.oceanbrowser.net/thredds/dodsC/data/emodnet-projects/Phase-2/Baltic%20Sea/Summer%20(June-August)%20-%2010-years%20running%20averages/Water_body_ammonium.4Danl.nc.html; 
+http://opendap.oceanbrowser.net/thredds/dodsC/data/emodnet-projects/Phase-2/Baltic%20Sea/Autumn%20(September-November)%20-%2010-years%20running%20averages/Water_body_ammonium.4Danl.nc.html",DOI
+Baltic Sea DIVA 4D analysis of Water_body_chlorophyll-a,"Units: mg/m3. Method: spatial interpolation produced with DIVA (Data-Interpolating Variational Analysis). URL: http://modb.oce.ulg.ac.be/DIVA.
+		
+Comment: Every year of the time dimension corresponds to a 10-year centred average for each season :
+- winter season (December-February),
+- spring (March-May),
+- summer (June-August),
+- autumn (September-November).
+.","http://dx.doi.org/10.6092/77EBCC7C-E61C-4B3B-B23A-82DCF0734866; 
+http://opendap.oceanbrowser.net/thredds/dodsC/data/emodnet-projects/Phase-2/Baltic Sea/Winter (December-February) - 10-years running averages/Water_body_chlorophyll-a.4Danl.nc.html; 
+http://opendap.oceanbrowser.net/thredds/dodsC/data/emodnet-projects/Phase-2/Baltic Sea/Spring (March-May) - 10-years running averages/Water_body_chlorophyll-a.4Danl.nc.html; 
+http://opendap.oceanbrowser.net/thredds/dodsC/data/emodnet-projects/Phase-2/Baltic Sea/Summer (June-August) - 10-years running averages/Water_body_chlorophyll-a.4Danl.nc.html; 
+http://opendap.oceanbrowser.net/thredds/dodsC/data/emodnet-projects/Phase-2/Baltic Sea/Autumn (September-November) - 10-years running averages/Water_body_chlorophyll-a.4Danl.nc.html","DOI; 
+WWW:DOWNLOAD-1.0-link--download; 
+WWW:DOWNLOAD-1.0-link--download; 
+WWW:DOWNLOAD-1.0-link--download; 
+WWW:DOWNLOAD-1.0-link--download"
+Baltic Sea DIVA 4D analysis of Water_body_dissolved_oxygen_concentration,"Units: umol/l. Method: spatial interpolation produced with DIVA (Data-Interpolating Variational Analysis). URL: http://modb.oce.ulg.ac.be/DIVA.
+
+Comment: Every year of the time dimension corresponds to a 10-year centred average for each season :
+- winter season (December-February),
+- spring (March-May),
+- summer (June-August),
+- autumn (September-November).","http://dx.doi.org/10.6092/2322E908-DA41-4D5D-B55C-4C0BEA5C3B46; 
+http://opendap.oceanbrowser.net/thredds/dodsC/data/emodnet-projects/Phase-2/Baltic Sea/Winter (December-February) - 10-years running averages/Water_body_dissolved_oxygen_concentration.4Danl.nc.html; 
+http://opendap.oceanbrowser.net/thredds/dodsC/data/emodnet-projects/Phase-2/Baltic Sea/Spring (March-May) - 10-years running averages/Water_body_dissolved_oxygen_concentration.4Danl.nc.html; 
+http://opendap.oceanbrowser.net/thredds/dodsC/data/emodnet-projects/Phase-2/Baltic Sea/Summer (June-August) - 10-years running averages/Water_body_dissolved_oxygen_concentration.4Danl.nc.html; 
+http://opendap.oceanbrowser.net/thredds/dodsC/data/emodnet-projects/Phase-2/Baltic Sea/Autumn (September-November) - 10-years running averages/Water_body_dissolved_oxygen_concentration.4Danl.nc.html","DOI; 
+WWW:DOWNLOAD-1.0-link--download; 
+WWW:DOWNLOAD-1.0-link--download; 
+WWW:DOWNLOAD-1.0-link--download; 
+WWW:DOWNLOAD-1.0-link--download"
+Baltic Sea DIVA 4D analysis of Water_body_nitrate,"Units: umol/l. Method: spatial interpolation produced with DIVA (Data-Interpolating Variational Analysis). URL: http://modb.oce.ulg.ac.be/DIVA.
+		
+Comment: Every year of the time dimension corresponds to a 10-year centred average for each season :
+- winter season (December-February),
+- spring (March-May),
+- summer (June-August),
+- autumn (September-November).
+
+ Diva settings: Snr=1.0, CL=0.7","http://dx.doi.org/10.6092/28BF2235-485C-4128-83D2-4EC455DB554C; 
+http://opendap.oceanbrowser.net/thredds/dodsC/data/emodnet-projects/Phase-2/Baltic%20Sea/Winter%20(December-February)%20-%2010-years%20running%20averages/Water_body_nitrate.4Danl.nc.html; 
+http://opendap.oceanbrowser.net/thredds/dodsC/data/emodnet-projects/Phase-2/Baltic%20Sea/Spring%20(March-May)%20-%2010-years%20running%20averages/Water_body_nitrate.4Danl.nc.html; 
+http://opendap.oceanbrowser.net/thredds/dodsC/data/emodnet-projects/Phase-2/Baltic%20Sea/Summer%20(June-August)%20-%2010-years%20running%20averages/Water_body_nitrate.4Danl.nc.html; 
+http://opendap.oceanbrowser.net/thredds/dodsC/data/emodnet-projects/Phase-2/Baltic%20Sea/Autumn%20(September-November)%20-%2010-years%20running%20averages/Water_body_nitrate.4Danl.nc.html",DOI
+Baltic Sea DIVA 4D analysis of Water_body_nitrate_plus_nitrite,"Units: umol/l. Method: spatial interpolation produced with DIVA (Data-Interpolating Variational Analysis). URL: http://modb.oce.ulg.ac.be/DIVA.
+		
+Comment: Every year of the time dimension corresponds to a 10-year centred average for each season :
+- winter season (December-February),
+- spring (March-May),
+- summer (June-August),
+- autumn (September-November).
+
+Diva settings: Snr=1.0, CL=0.7","http://dx.doi.org/10.6092/3526BEC3-A941-4888-BB10-97FE5CEAB56C; 
+http://opendap.oceanbrowser.net/thredds/dodsC/data/emodnet-projects/Phase-2/Baltic%20Sea/Winter%20(December-February)%20-%2010-years%20running%20averages/Water_body_nitrate_plus_nitrite.4Danl.nc.html; 
+http://opendap.oceanbrowser.net/thredds/dodsC/data/emodnet-projects/Phase-2/Baltic%20Sea/Spring%20(March-May)%20-%2010-years%20running%20averages/Water_body_nitrate_plus_nitrite.4Danl.nc.html; 
+http://opendap.oceanbrowser.net/thredds/dodsC/data/emodnet-projects/Phase-2/Baltic%20Sea/Summer%20(June-August)%20-%2010-years%20running%20averages/Water_body_nitrate_plus_nitrite.4Danl.nc.html; 
+http://opendap.oceanbrowser.net/thredds/dodsC/data/emodnet-projects/Phase-2/Baltic%20Sea/Autumn%20(September-November)%20-%2010-years%20running%20averages/Water_body_nitrate_plus_nitrite.4Danl.nc.html",DOI
+Baltic Sea DIVA 4D analysis of Water_body_phosphate,"Units: umol/l. Method: spatial interpolation produced with DIVA (Data-Interpolating Variational Analysis). URL: http://modb.oce.ulg.ac.be/DIVA.
+
+Comment: Every year of the time dimension corresponds to a 10-year centred average for each season :
+- winter season (December-February),
+- spring (March-May),
+- summer (June-August),
+- autumn (September-November).
+
+Diva settings: Snr=1.0, CL=0.7.","http://dx.doi.org/10.6092/452EED6D-70B5-4AFD-80FB-286CF76F4CE5; 
+http://opendap.oceanbrowser.net/thredds/dodsC/data/emodnet-projects/Phase-2/Baltic%20Sea/Winter%20(December-February)%20-%2010-years%20running%20averages/Water_body_phosphate.4Danl.nc.html; 
+http://opendap.oceanbrowser.net/thredds/dodsC/data/emodnet-projects/Phase-2/Baltic%20Sea/Spring%20(March-May)%20-%2010-years%20running%20averages/Water_body_phosphate.4Danl.nc.html; 
+http://opendap.oceanbrowser.net/thredds/dodsC/data/emodnet-projects/Phase-2/Baltic%20Sea/Summer%20(June-August)%20-%2010-years%20running%20averages/Water_body_phosphate.4Danl.nc.html; 
+http://opendap.oceanbrowser.net/thredds/dodsC/data/emodnet-projects/Phase-2/Baltic%20Sea/Autumn%20(September-November)%20-%2010-years%20running%20averages/Water_body_phosphate.4Danl.nc.html",DOI
+Baltic Sea DIVA 4D analysis of Water_body_silicate,"Units: umol/l. Method: spatial interpolation produced with DIVA (Data-Interpolating Variational Analysis). URL: http://modb.oce.ulg.ac.be/DIVA.
+
+Comment: Every year of the time dimension corresponds to a 10-year centred average for each season :
+- winter season (December-February),
+- spring (March-May),
+- summer (June-August),
+- autumn (September-November).
+
+Diva settings: Snr=1.0, CL=0.7.","http://dx.doi.org/10.6092/47BE2153-72EF-444B-9FB9-4D21BFCA0AB9; 
+http://opendap.oceanbrowser.net/thredds/dodsC/data/emodnet-projects/Phase-2/Baltic%20Sea/Winter%20(December-February)%20-%2010-years%20running%20averages/Water_body_silicate.4Danl.nc.html; 
+http://opendap.oceanbrowser.net/thredds/dodsC/data/emodnet-projects/Phase-2/Baltic%20Sea/Spring%20(March-May)%20-%2010-years%20running%20averages/Water_body_silicate.4Danl.nc.html; 
+http://opendap.oceanbrowser.net/thredds/dodsC/data/emodnet-projects/Phase-2/Baltic%20Sea/Summer%20(June-August)%20-%2010-years%20running%20averages/Water_body_silicate.4Danl.nc.html; 
+http://opendap.oceanbrowser.net/thredds/dodsC/data/emodnet-projects/Phase-2/Baltic%20Sea/Autumn%20(September-November)%20-%2010-years%20running%20averages/Water_body_silicate.4Danl.nc.html",DOI
+Baltic Sea DIVA 4D analysis of Water_body_total_nitrogen,"Units: umol/l. Method: spatial interpolation produced with DIVA (Data-Interpolating Variational Analysis). URL: http://modb.oce.ulg.ac.be/DIVA.
+
+Comment: Every year of the time dimension corresponds to a 10-year centred average for each season :
+- winter season (December-February),
+- spring (March-May),
+- summer (June-August),
+- autumn (September-November).
+
+Diva settings: Snr=1.0, CL=0.7.","http://dx.doi.org/10.6092/6892A8FE-E55B-4B0E-8C4A-BBFFBC8E8C23; 
+http://opendap.oceanbrowser.net/thredds/dodsC/data/emodnet-projects/Phase-2/Baltic%20Sea/Winter%20(December-February)%20-%2010-years%20running%20averages/Water_body_total_nitrogen.4Danl.nc.html; 
+http://opendap.oceanbrowser.net/thredds/dodsC/data/emodnet-projects/Phase-2/Baltic%20Sea/Spring%20(March-May)%20-%2010-years%20running%20averages/Water_body_total_nitrogen.4Danl.nc.html; 
+http://opendap.oceanbrowser.net/thredds/dodsC/data/emodnet-projects/Phase-2/Baltic%20Sea/Summer%20(June-August)%20-%2010-years%20running%20averages/Water_body_total_nitrogen.4Danl.nc.html; 
+http://opendap.oceanbrowser.net/thredds/dodsC/data/emodnet-projects/Phase-2/Baltic%20Sea/Autumn%20(September-November)%20-%2010-years%20running%20averages/Water_body_total_nitrogen.4Danl.nc.html",DOI
+Baltic Sea DIVA 4D analysis of Water_body_total_phosphorus,"Units: umol/l. Method: spatial interpolation produced with DIVA (Data-Interpolating Variational Analysis). URL: http://modb.oce.ulg.ac.be/DIVA.
+
+Comment: Every year of the time dimension corresponds to a 10-year centred average for each season :
+- winter season (December-February),
+- spring (March-May),
+- summer (June-August),
+- autumn (September-November).
+
+Diva settings: Snr=1.0, CL=0.7.","http://dx.doi.org/10.6092/B6B7CF62-C4AB-434C-8420-27C0F12AFA5E; 
+http://opendap.oceanbrowser.net/thredds/dodsC/data/emodnet-projects/Phase-2/Baltic%20Sea/Winter%20(December-February)%20-%2010-years%20running%20averages/Water_body_total_phosphorus.4Danl.nc.html; 
+http://opendap.oceanbrowser.net/thredds/dodsC/data/emodnet-projects/Phase-2/Baltic%20Sea/Spring%20(March-May)%20-%2010-years%20running%20averages/Water_body_total_phosphorus.4Danl.nc.html; 
+http://opendap.oceanbrowser.net/thredds/dodsC/data/emodnet-projects/Phase-2/Baltic%20Sea/Summer%20(June-August)%20-%2010-years%20running%20averages/Water_body_total_phosphorus.4Danl.nc.html; 
+http://opendap.oceanbrowser.net/thredds/dodsC/data/emodnet-projects/Phase-2/Baltic%20Sea/Autumn%20(September-November)%20-%2010-years%20running%20averages/Water_body_total_phosphorus.4Danl.nc.html",DOI
+Baltic Sea benthic meiofauna and macrofauna mid 1990s,"Biomass and abundance of western Baltic Sea benthic meio and macrofauna (all fauna >6 um sieve). Individual measures of body size, from Bornholm to Lulea. Only from Swedish and Danish waters.","https://emodnet.ec.europa.eu/geonetwork/srv/eng/catalog.search#/metadata/6d617269-6e65-696e-666f-000000002501; 
+https://www.eurobis.org/toolbox/en/download/occurrence/dataset/2501; 
+mda.vliz.be/mda/directlink.php?fid=VLIZ_00000014_1280733087; 
+https://obis.org/dataset/c3286697-c89b-4f5c-b7c4-d076529bee34",
+Baltic porpoise acoustic surveys 01-02,Boat-based acoustic surveys for harbor porpoises in the Baltic Sea during the summers of 2001 and 2002.,"https://emodnet.ec.europa.eu/geonetwork/srv/eng/catalog.search#/metadata/6d617269-6e65-696e-666f-000000002828; 
+https://www.eurobis.org/toolbox/en/download/occurrence/dataset/2828; 
+http://ipt.env.duke.edu/resource?r=zd_343; 
+https://obis.org/dataset/dc5e998b-8b88-495b-9901-6de1c6831d86; 
+seamap.env.duke.edu/datasets/detail/343",
+Baltic porpoise sightings 01-02,"Dataset information available at
+<a href=http://seamap.env.duke.edu/datasets/detail/344 target=_blank>http://seamap.env.duke.edu/datasets/detail/344</a>","https://emodnet.ec.europa.eu/geonetwork/srv/eng/catalog.search#/metadata/6d617269-6e65-696e-666f-000000001970; 
+https://www.eurobis.org/toolbox/en/download/occurrence/dataset/1970; 
+https://obis.org/dataset/fabd272c-df1a-4ffb-9ecc-9af1a17bc27a; 
+seamap.env.duke.edu/dataset/344",
+Baltic sea UVP5 image data set (July 2017),"The Underwater Vision Profiler (UVP) was used int he Baltic sea during the Aranda cruise in July 2017 in the frame of JERICONEXT to quantify the vertical distribution of macroscopic particles >100µm and plankton > 700 μm in size (incuding large cynaobacterial filaments). The smaller size limit is fixed by optical resolution, whereas the larger size limit is determined by the volume of water illuminated per image.  Images are recorded at a frequency up to 20 Hz and the recorded volume per image is 1.02 L.",https://ecotaxa.obs-vlfr.fr/,
+Baltic seabirds transect surveys,"Metadata information available at
+<a href=http://seamap.env.duke.edu/prod/services/datasets/show_xml_metadata.php?datasetid=358 target=_blank>seamap.env.duke.edu/prod/services/datasets/show_xml_metadata.php?datasetid=358</a>","https://emodnet.ec.europa.eu/geonetwork/srv/eng/catalog.search#/metadata/6d617269-6e65-696e-666f-000000001971; 
+https://www.eurobis.org/toolbox/en/download/occurrence/dataset/1971; 
+https://obis.org/dataset/78987543-213d-464c-9bb0-a1729a91a505; 
+seamap.env.duke.edu/dataset/358",
+"Benthic habitat map of the Rowy site, Southern Baltic","Benthic habitat map for six classes of habitats. The map was generated based on multibeam echosounder datasets acquired with two frequencies: 150 kHz and 400 kHz. Suprevised classification was performed using object-based image analysis and combined k nearest neighbour and random forest results. It allowed reaching 93% of overall accuracy and 0.90 Kappa Index of Agreement. This research was funded by EU BONUS-185 ECOMAP project (Baltic Sea environmental assessments by opto-acoustic remote sensing, mapping, and monitoring) and co-financed by the National Centre for Research and Development no. BONUS-BB/ECOMAP/07/2017.","https://ows.emodnet-seabedhabitats.eu/geoserver/emodnet_view_maplibrary/wms?; 
+https://ows.emodnet-seabedhabitats.eu/geoserver/emodnet_open_maplibrary/wfs?; 
+https://files.emodnet-seabedhabitats.eu/data/EMODnetSBHsurvey_PL000001.zip","WWW:LINK-1.0-http--link; 
+WWW:DOWNLOAD-1.0-http--download; 
+OGC:WMS-1.1.1-http-get-map; 
+OGC:WMS; 
+OGC:WFS; 
+WWW:LINK-1.0-http--link"
+"Bio-optical measurements in Utö Baltic Sea, spring 2017-spring 2018","Dataset contains bio-optical measurements carried out at Utö Atmospheric and Marine research station, from spring 2017 to spring 2018. Dataset includes continuous measurements of temperature, salinity, O2, fluorescence for Chlorophyll, phycocyanin, phycoerythrin and CDOM, spectral fluorescence and FRRF fluorometry from a flow-through system (sampling depth -5 m). Data set also includes 3-4 1-week  campaigns to measure exctracted Chlorophyll, spectral absorption and fluorescence, primary production and nutrients.",http://swell.fmi.fi/Uto/about.html,
+"Bylgides sarsi, Pontoporeia femorata abundance model in Baltic Sea","Data represents the abundance of benthic community with Bylgides sarsi, Pontoporeia femoratain the Baltic Sea. Baltic wide benthic community analysis is done based on the abundance and biomass data averaged for all sampling events in within 5 km grid cell based on the harmonised dataset that comprises data at over 7000 locations mostly sampled in period 2000-2013. Random Forest model was used for spatial interpolation.Original data can be downloaded: http://gis.ices.dk/gis/rest/services/ExternalDatasets/Benthic/MapServer. For EMODnet Seabed habitat portal the original dataset was separated as presence-absence grids per identified benthic community in the original article.","https://www.emodnet-seabedhabitats.eu/access-data/launch-map-viewer/?LAYERS=EUSM2016&Y=39&X=-8.525390623910205&zoom=5&center=10.400,58.700&layerIds=976&baseLayerId=-3&activeFilters=",WWW:LINK-1.0-http--link
+CTD data from Baltic Sea is obtained by the moored Aqualog profiler,The data is obtained by the autonomous moored profiler Aqualog (http://www.aqualog.pro) in the Baltic Sea from 15-11-2017 to 07-02-2018 year. 1003 profiles. CTD sensor was Idronaut 316.,"https://cloud.emodnet-ingestion.eu/index.php/s/E65UEy9W1KhRFog; 
+https://cdi.seadatanet.org/search/welcome.php?query=2116&query_code={8AD57F7A-C257-4A5A-8DBA-35B34C0F435C}; 
+https://cdi.seadatanet.org/search/welcome.php?query=2116&query_code={8AD57F7A-C257-4A5A-8DBA-35B34C0F435C}","WWW:DOWNLOAD-1.0-http--download; 
+WWW:LINK-1.0-http--link; 
+WWW:LINK-1.0-http--link"
+Chemistry data from Baltic Sea(Cruise 11587),"This dataset is included the following chemistry parameters of seawater: temperature, salinity, oxygen, phosphate, nitrate, nitrite, alkalinity, pH.","https://cloud.emodnet-ingestion.eu/index.php/s/LWsdynLVnTCf1me; 
+https://cdi.seadatanet.org/search/welcome.php?query=358&query_code={C2324DD0-66E0-434A-9538-993717F9D860}; 
+https://emodnet-chemistry.maris.nl/search","WWW:DOWNLOAD-1.0-http--download; 
+WWW:LINK-1.0-http--link; 
+WWW:LINK-1.0-http--link"
+Chemistry data from Baltic Sea(Cruise 16751),"This dataset is included the following chemistry parameters of seawater: temperature, salinity, oxygen, phosphate, nitrite, pH.","https://cloud.emodnet-ingestion.eu/index.php/s/gYrz1EhBT2WL0S8; 
+https://cdi.seadatanet.org/search/welcome.php?query=1515&query_code={1D68B378-70B2-41EA-817C-3E074F10626D}; 
+https://cdi-chemistry.seadatanet.org/search/welcome.php?query=1517&query_code={E35396A6-3605-4707-B67A-FC5867B12172}","WWW:DOWNLOAD-1.0-http--download; 
+WWW:LINK-1.0-http--link; 
+WWW:LINK-1.0-http--link"
+Cooperative Monitoring in the Baltic marine environment,"Monitoring is since long a well established function of the Helsinki Convention. Monitoring of physical, chemical and biological variables of the open sea started in 1979, monitoring of radioactive substances in the Baltic Sea started in 1984.",www.helcom.fi/groups/monas/CombineManual/PartA/en_GB/main/,
+Data product numerical abundance of benthic macroinvertebrates in North Sea and Baltic Sea,"The data product on benthic living modes (Beauchard, 2018), was based on an extensive compilation of data on benthic abundance and biomass.  However, this dataset was only present as a data file, without the underlying scripts to reproduce the result. With the present data product, we correct this procedural gap. This dataset differs in details from the file underlying the data product on living modes. Datasets were selected that were sufficiently similar in methods for  sampling (either boxcore or grab), sampled surface (in the order of 0.1  square meter, although the exact value is variable - it can be found  back in the data files) and sieves (1 mm and 0.5 mm sieves were  included). For all datasets, abundance was either used directly from the given abundance in the dataset, or calculated from the given counts and area sampled.","https://github.com/EMODnet/EMODnet-Biology-Benthos_numeric_abundance; 
+https://mda.vliz.be/directlink.php?fid=VLIZ_00000727_60196601e2e81",
+"Diastylis, Corbula gibba, Dipolydora quadrilobata, Arctica islandica, Aricidea suecica, Abra alba abundance model in Baltic Sea","Data represents the abundance of benthic community with Diastylis, Corbula gibba, Dipolydora quadrilobata, Arctica islandica, Aricidea suecica, Abra albain the Baltic Sea. Baltic wide benthic community analysis is done based on the abundance and biomass data averaged for all sampling events in within 5 km grid cell based on the harmonised dataset that comprises data at over 7000 locations mostly sampled in period 2000-2013. Random Forest model was used for spatial interpolation.Original data can be downloaded: http://gis.ices.dk/gis/rest/services/ExternalDatasets/Benthic/MapServer. For EMODnet Seabed habitat portal the original dataset was separated as presence-absence grids per identified benthic community in the original article.","https://www.emodnet-seabedhabitats.eu/access-data/launch-map-viewer/?LAYERS=EUSM2016&Y=39&X=-8.525390623910205&zoom=5&center=10.400,58.700&layerIds=975&baseLayerId=-3&activeFilters=",WWW:LINK-1.0-http--link
+EUSeaMap2 (2015) Interim draft Baltic Sea Broad-Scale Predictive Habitat Map,"Interim draft habitat output of the EUSeaMap2 (2015) Baltic Sea broad-scale predictive model, produced by EMODnet Seabed Habitats.
+The map was produced using a ""top-down"" modelling approach using the following input datasets:
+1. Seabed Substrate (EMODnet Geology)
+2. Bathymetry (EMODnet Bathymetry)
+3. Light at the Seabed
+4. Wave Base (modeled)
+5. Biogeographic zone (modelled)
+6. Wave energy (modelled)
+7. Current energy (modelled)
+
+The model, produced in Arc Model Builder (10.1), uses datasets 2 to 5 to determine biological zone, which in combination with seabed substrate and energy data can be used to predict the physical habitat at any one location.
+
+In addition, data on salinity at seabed was included in the model, but was not used to determine the final EUNIS habitat class.
+
+The study followed the methodology developped within the EUSeaMap 1 project. For more details about this methodology see documents such as the EUSeaMap 1 final report (Cameron and Askew, 2011), Coltman et al., 2008, or Vasquez et al., 2015
+The model was created using raster input layers with a cell size of 0.002dd (roughly 250 meters). The model includes the sublittoral zone only; due to the high variability of the littoral zone, a lack of detailed substrate data and the resolution of the model, it is difficult to predict littoral habitats at this scale.
+The map follows the EUNIS 2007-11 classification system, supplemented by additional categories in deep sea areas and in areas lacking full data.
+
+References:
+Cameron, A., Askew, N. (eds.), 2011. EUSeaMap - Preparatory Action for development and assessment of a European broad-scale seabed habitat map final report. URL: http://jncc.gov.uk/euseamap
+
+Coltman, N., Golding, N., Verling, E., 2008. Developing a broadscale predictive EUNIS habitat map for the MESH study area. 16 pp. URL: https://www.emodnet-seabedhabitats.eu/resources/mesh-archive/
+
+Vasquez, M., Mata Chac├│n, D., Tempera, F., OÔÇÖKeeffe, E., Galparsoro, I., Sanz Alonso, J.L., Gon├ºalves, J.M.S., Bentes, L., Amorim, P., Henriques, V., McGrath, F., Monteiro, P., Mendes, B., Freitas, R., Martins, R., Populus, J., 2015. Broad-scale mapping of seafloor habitats in the north-east Atlantic using existing environmental data. Journal of Sea Research, MeshAtlantic: Mapping Atlantic Area Seabed Habitats for Better Marine Management 100, 120ÔÇô132. doi:10.1016/j.seares.2014.09.011",http://www.emodnet-seabedhabitats.eu/default.aspx?page=1974&LAYERS=HabitatsAtlantic2015&zoom=3&Y=52&X=-10,
+"EUSeaMap2 (2016) Broad-Scale Predictive Habitat Map - Energy class (Arctic, Atlantic, Baltic)","Energy class layer produced by EMODnet Seabed Habitats as an input layer for the 2016 EUSeaMap broad-scale habitat model. The extent of the mapped area includes the Baltic Sea, and areas of the North Eastern Atlantic and Arctic extending from the Canary Islands in the south to Norway in the North. The map of energy classes was produced using underlying wave and current data and thresholds derived from statistical analyses or expert judgement on known conditions. 
+
+Detailed information on the modelling process is found in the EMODnet Seabed Habitats technical report and its appendices (Populus et al, 2017, link in Resources).","http://www.emodnet-seabedhabitats.eu/access-data/launch-map-viewer/?LAYERS=EUSMENER&zoom=3&Y=60.04&X=-13.85; 
+http://www.emodnet-seabedhabitats.eu/access-data/download-data/?linkid=eusm2019_ene_group; 
+http://archimer.ifremer.fr/doc/00388/49975/; 
+http://52.49.27.224/geoserver/wms?","WWW:LINK-1.0-http--link; 
+WWW:LINK-1.0-http--link; 
+WWW:LINK-1.0-http--link; 
+OGC:WMS-1.1.1-http-get-map"
+"Echinocyamus pusillus, Harmothoe, Bittium reticulatum, Oligochaeta, Alitta virens, Turritella communis, Asterias rubens abundance model in Baltic Sea","Data represents the abundance of benthic community with Echinocyamus pusillus, Harmothoe, Bittium reticulatum, Oligochaeta, Alitta virens, Turritella communis, Asterias rubens in the Baltic Sea. Baltic wide benthic community analysis is done based on the abundance and biomass data averaged for all sampling events in within 5 km grid cell based on the harmonised dataset that comprises data at over 7000 locations mostly sampled in period 2000-2013. Random Forest model was used for spatial interpolation.Original data can be downloaded: http://gis.ices.dk/gis/rest/services/ExternalDatasets/Benthic/MapServer. For EMODnet Seabed habitat portal the original dataset was separated as presence-absence grids per identified benthic community in the original article.","https://www.emodnet-seabedhabitats.eu/access-data/launch-map-viewer/?LAYERS=EUSM2016&Y=39&X=-8.525390623910205&zoom=5&center=10.400,58.700&layerIds=982&baseLayerId=-3&activeFilters=",WWW:LINK-1.0-http--link
+"Finnish Baltic Sea benthic monitoring, POHJE database","The POHJE database includes data on benthic macrofauna, covering the Finnish coastal areas as well as the offshore areas of the Baltic Sea. The quantitative data mainly stem  from the Finnish national monitoring program and statutory monitoring programs, but also data from surveys and research projects are included. In total the database contain aproximately 100 000 quantitative records including developmental stages, with a time span from 1965 to present. The database is regularly maintained and data is added continuously.","https://emodnet.ec.europa.eu/geonetwork/srv/eng/catalog.search#/metadata/6d617269-6e65-696e-666f-000000005725; 
+https://www.eurobis.org/toolbox/en/download/occurrence/dataset/5725; 
+https://ipt.vliz.be/eurobis/resource?r=pohjedatabase; 
+https://obis.org/dataset/43d19bf8-4d49-413b-bedb-4fa4547714fa",
+"Finnish Baltic Sea phytoplankton monitoring, KPLANK database","The KPLANK database includes data on phytoplankton, covering the Finnish coastal areas as well as the offshore areas of the Baltic Sea. The quantitative data mainly stem from the Finnish national monitoring program and statutory monitoring programs. In total the database contain approximately 240 000 quantitative records including size classes. The data span from 1937 to present. The database is regularly maintained and data is added continuously.","https://emodnet.ec.europa.eu/geonetwork/srv/eng/catalog.search#/metadata/6d617269-6e65-696e-666f-000000005724; 
+https://www.eurobis.org/toolbox/en/download/occurrence/dataset/5724; 
+https://ipt.vliz.be/eurobis/resource?r=syke-kplank-phytoplankton; 
+https://obis.org/dataset/057d7f8c-5286-4032-aaf9-5ce078833262; 
+https://obis.org/dataset/b9915edd-16b0-4aa9-9a0d-3d14574cfb61",
+Finnish Baltic Sea zooplankton monitoring,"The dataset include Finnish zooplankton monitoring data from the Baltic Sea. The Finnish zooplankton monitoring program started in 1979 and is still ongoing. The sampling has normally taken place in late summer (August), but since 2014 sampling is also carried out in early summer (May-June).The zooplankton monitoring was performed by Finnish Institute of Marine Research until 2008, thereafter the Finnish Environment Institute is responsible for the monitoring program. Samples are taken using a WP-2 net (normally 2550 cm2 opening and 100 um mesh size). The monitoring follows the HELCOM COMBINE guidelines, but subsampling is done using Folsom splitter.  The dataset is also accessible through the NOAA COPEPOD database.","https://emodnet.ec.europa.eu/geonetwork/srv/eng/catalog.search#/metadata/6d617269-6e65-696e-666f-000000005726; 
+https://www.eurobis.org/toolbox/en/download/occurrence/dataset/5726; 
+https://ipt.vliz.be/eurobis/resource?r=syke-zplank; 
+https://obis.org/dataset/531637ff-203d-447a-8595-519080144a1d; 
+https://obis.org/dataset/7f29807d-c940-4136-9ccd-3baa1e7e9bab; 
+https://www.st.nmfs.noaa.gov/copepod/data/fi-05101/",
+Gridded abundance map of the invasive Polychaete <em>Marenzelleria</em> in the Baltic Sea,"Gridded abundance map of Polychaete worm <i>Marenzelleria</i>. This animated gridded abundance map shows how the species invaded the Baltic Sea from Danish waters in the 1990s and became abundant throughout the whole region. This animation shows that probably multiple invasions occurred at the same time. The species is part of the Descriptor 2, Non Indigenous Species of the MSFD and is being monitored under HELCOM. The product was developed with DIVA (Data-Interpolating Variational Analysis) and shows the log-transformed abundance. Data was provided by Sweden (SMH - Swedish Agency for Marine and Water Management; Swedish Meteorological and Hydrological Institute (SMHI); (2015): SHARK - Marine soft bottom macrozoobenthos monitoring in Sweden since 1971)), Finland (SYKE) and Denmark (Aarhus University - Josefson, A.; Rytter, D.; Department of Bioscience - AU, Denmark; (2015): Danish benthic marine monitoring data from ODAM).",https://mda.vliz.be/directlink.php?fid=VLIZ_00000727_5f2bd605a3269144372019,
+"HMAP Dataset 07: Danish Baltic Catch Data, 1611-1920","This dataset contains data on Baltic fish catches between 1611 and 1920, derived from Danish archives.","https://emodnet.ec.europa.eu/geonetwork/srv/eng/catalog.search#/metadata/6d617269-6e65-696e-666f-000000003144; 
+https://www.eurobis.org/toolbox/en/download/occurrence/dataset/3144; 
+https://hydra.hull.ac.uk/assets/hull:2159/content03; 
+https://hydra.hull.ac.uk/resources/hull:2159; 
+https://obis.org/dataset/6b45e770-4625-43dd-abc6-c4844a417b55",
+"HMAP Dataset 08: Swedish Baltic Catch Data, 1752-1990","This dataset contains data on Baltic fish catches between 1752 and 1990, derived from Swedish archives.","https://emodnet.ec.europa.eu/geonetwork/srv/eng/catalog.search#/metadata/6d617269-6e65-696e-666f-000000003145; 
+https://www.eurobis.org/toolbox/en/download/occurrence/dataset/3145; 
+https://hydra.hull.ac.uk/assets/hull:2160/content03; 
+https://hydra.hull.ac.uk/resources/hull:2160; 
+https://obis.org/dataset/60fa0b32-b088-42db-835c-b9c797a60945",
+Habitats and Biotopes in the German Baltic Sea,"The dataset provides full-coverage maps of the habitats and biotopes in the German Baltic Sea at a resolution of 1 x 1 km for the entire region and at 50 x 50 m resolution in specific areas. We combined geological and biological surveys to map the seabed and collected extensive data to classify different habitats and their associated benthic communities. Using newly established national guidelines and predictive habitat modelling, we produced highly accurate maps. For upload to EMODnet four separate maps were made:
+- Broad Habitat Types according to the Marine Strategy Framework Directive (MSFD).
+- Annex I Habitat types
+- Habitat types classified according to the Baltic Sea-wide HELCOM underwater biotope and habitat classification (HUB)
+-  other habitat types, OHTs for German marine waters include biotope types according to S30 of the German Federal Nature Conservation Act (BNatSchG), according to the European Habitats Directive (92/43/EEC), as well as the Baltic Sea-wide HELCOM Red List types","https://ows.emodnet-seabedhabitats.eu/geoserver/emodnet_view_maplibrary/wms; 
+https://ows.emodnet-seabedhabitats.eu/geoserver/emodnet_open_maplibrary/wfs; 
+https://files.emodnet-seabedhabitats.eu/data/EMODnetSBHsurvey_DE005001.zip","OGC:WMS; 
+OGC:WFS; 
+WWW:DOWNLOAD-1.0-http--download"
+Habitats and Biotopes in the German Baltic Sea,"The dataset provides full-coverage maps of the habitats and biotopes in the German Baltic Sea at a resolution of 1 x 1 km for the entire region and at 50 x 50 m resolution in specific areas. We combined geological and biological surveys to map the seabed and collected extensive data to classify different habitats and their associated benthic communities. Using newly established national guidelines and predictive habitat modelling, we produced highly accurate maps. The maps show Broad and Other Habitat Types (including Habitats Directive Annex I habitat types) according to the Marine Strategy Framework Directive (MSFD) as well as HELCOM HUB biotope types. Detailed documentation is available at: https://doi.org/10.3390/biology13010006","https://cloud.emodnet-ingestion.eu/index.php/s/tHSkOgm0WEaE33t; 
+https://gis.ices.dk/geonetwork/srv/eng/catalog.search#/metadata/78db960d-b932-4454-8bc1-5cb46bb2a85a; 
+https://files.emodnet-seabedhabitats.eu/data/EMODnetSBHsurvey_DE005001.zip; 
+https://emodnet.ec.europa.eu/geoviewer/?layers=12618:1:1,12616:1:1&basemap=ebwbl&active=12616&bounds=1021203.921898995,7068806.52300981,1632816.9250455047,7342439.632230044&filters=&projection=EPSG:3857","WWW:DOWNLOAD-1.0-http--download; 
+WWW:LINK-1.0-http--link; 
+WWW:LINK-1.0-http--link; 
+WWW:LINK-1.0-http--link"
+Historical benthic data from the southern Baltic Sea (1839-2001),"Biodiversity of macrozoobenthos of German Baltic waters between Fehmarn and Usedem, literature data from 1839 to 2001","https://emodnet.ec.europa.eu/geonetwork/srv/eng/catalog.search#/metadata/6d617269-6e65-696e-666f-000000000480; 
+https://www.eurobis.org/toolbox/en/download/occurrence/dataset/480; 
+mda.vliz.be/mda/directlink.php?fid=VLIZ_00000014_1219144942; 
+https://obis.org/dataset/f0e5ebdf-0685-49b3-bca7-74e0835ec0dc",
+Historical data on invertebrates from the Baltic Sea and Gdansk Bay,Historical benthic dredge samples from the southern baltic and the Gulf of Gdansk,"https://emodnet.ec.europa.eu/geonetwork/srv/eng/catalog.search#/metadata/6d617269-6e65-696e-666f-000000001832; 
+https://www.eurobis.org/toolbox/en/download/occurrence/dataset/1832; 
+mda.vliz.be/mda/directlink.php?fid=VLIZ_00000105_1361792435; 
+https://obis.org/dataset/5fbbc3e4-e951-4aa2-a16c-ac9258933d6c",
+Historical quantitative benthos grab samples from the Southern Baltic Sea,Historical quantitative benthos grab samples from the Southern Baltic Sea. They dataset was digitised at the Christian-Albrechts-University Kiel; Leibniz Institute of Marine Sciences; Marine Ecology Division; Fishery Biology section.,mda.vliz.be/mda/directlink.php?fid=VLIZ_00000105_1376047955,
+Historical quantitative benthos grab samples from the Southern Baltic Sea - German data,"Historical quantitative benthos grab samples from the Southern Baltic Sea, collected by German researchers. The dataset was digitised at the Christian-Albrechts-University Kiel; Leibniz Institute of Marine Sciences; Marine Ecology Division; Benthos Ecology section.","https://emodnet.ec.europa.eu/geonetwork/srv/eng/catalog.search#/metadata/6d617269-6e65-696e-666f-000000001838; 
+https://www.eurobis.org/toolbox/en/download/occurrence/dataset/1838; 
+mda.vliz.be/mda/directlink.php?fid=VLIZ_00000105_1376047955; 
+https://obis.org/dataset/cad31b12-0f59-4abf-9109-cb09ea40c297",
+Historical quantitative benthos grab samples from the Southern Baltic Sea - Polish data,"Historical quantitative benthos grab samples from the Southern Baltic Sea, collected by Polish researchers. The dataset was digitised at the Christian-Albrechts-University Kiel; Leibniz Institute of Marine Sciences; Marine Ecology Division; Benthos Ecology section.","https://emodnet.ec.europa.eu/geonetwork/srv/eng/catalog.search#/metadata/6d617269-6e65-696e-666f-000000001837; 
+https://www.eurobis.org/toolbox/en/download/occurrence/dataset/1837; 
+mda.vliz.be/mda/directlink.php?fid=VLIZ_00000105_1376047955; 
+https://obis.org/dataset/511a64f5-54c0-4ccf-8c80-b7adbd5adff5",
+"Hydrobiidae, Pygospio elegans, Cerastoderma glaucum abundance model in Baltic Sea","Data represents the abundance of benthic community with Hydrobiidae, Pygospio elegans, Cerastoderma glaucumin the Baltic Sea. Baltic wide benthic community analysis is done based on the abundance and biomass data averaged for all sampling events in within 5 km grid cell based on the harmonised dataset that comprises data at over 7000 locations mostly sampled in period 2000-2013. Random Forest model was used for spatial interpolation.Original data can be downloaded: http://gis.ices.dk/gis/rest/services/ExternalDatasets/Benthic/MapServerFor EMODnet Seabed habitat portal the original dataset was separated as presence-absence grids per identified benthic community in the original article.","https://www.emodnet-seabedhabitats.eu/access-data/launch-map-viewer/?LAYERS=EUSM2016&Y=39&X=-8.525390623910205&activeFilters=&zoom=5&center=10.400,58.700&layerIds=974&baseLayerId=-3&activeFilters=",WWW:LINK-1.0-http--link
+ICES Baltic International Trawl Survey for commercial fish species,Baltic International Bottom Trawl Survey dataset includes age- and length-based catch per unit effort data for commercial fish species in ICES Baltic sub-divisions.,"datras.ices.dk/Documents/Manuals/Addendum_1_WGBIFS_BITS_Manual_2010.pdf; 
+https://emodnet.ec.europa.eu/geonetwork/srv/eng/catalog.search#/metadata/6d617269-6e65-696e-666f-000000002760; 
+https://www.eurobis.org/toolbox/en/download/occurrence/dataset/2760; 
+geo.ices.dk/geonetwork/srv/en/main.home?uuid=0c3e6329-b521-49e8-94a0-506e2087d551; 
+https://ipt.vliz.be/eurobis/resource?r=ices_datras_bits; 
+https://obis.org/dataset/4c224fea-7e00-442b-a163-3fe82870f93c",
+IOW Macrozoobenthos monitoring Baltic Sea (1980-2005),This time series on species composition and biomass or abundance of macrozoobenthos in the Belt Sea and the Baltic proper provide data from 1979 till 2005 as part of the HELCOM monitoring,"https://emodnet.ec.europa.eu/geonetwork/srv/eng/catalog.search#/metadata/6d617269-6e65-696e-666f-000000000601; 
+https://www.eurobis.org/toolbox/en/download/occurrence/dataset/601; 
+http://ipt.vliz.be/eurobis/resource?r=macroben_zettler_evco; 
+mda.vliz.be/mda/directlink.php?fid=VLIZ_00000097_1236861765; 
+mda.vliz.be/mda/directlink.php?fid=VLIZ_00000097_1237217095; 
+https://obis.org/dataset/3eb5bcd4-5258-48a4-93dd-ae14de6f7e56; 
+https://obis.org/dataset/a90f3766-9d9e-4dd9-8606-eb3f10d25f2e",
+"Lagis koreni, Cerastoderma edule, Polydora, Halicryptus spinulosus abundance model in Baltic Sea","Data represents the abundance of benthic community with Lagis koreni, Cerastoderma edule, Polydora, Halicryptus spinulosus in the Baltic Sea. Baltic wide benthic community analysis is done based on the abundance and biomass data averaged for all sampling events in within 5 km grid cell based on the harmonised dataset that comprises data at over 7000 locations mostly sampled in period 2000-2013. Random Forest model was used for spatial interpolation.Original data can be downloaded: http://gis.ices.dk/gis/rest/services/ExternalDatasets/Benthic/MapServer. For EMODnet Seabed habitat portal the original dataset was separated as presence-absence grids per identified benthic community in the original article.","https://www.emodnet-seabedhabitats.eu/access-data/launch-map-viewer/?LAYERS=EUSM2016&Y=39&X=-8.525390623910205&zoom=5&center=10.400,58.700&layerIds=981&baseLayerId=-3&activeFilters=",WWW:LINK-1.0-http--link
+Meiofauna of the Southern Baltic,"These data were collected as part of a large study, aiming to compare the structure of the nematode communities at two comparable sublittoral sites, located in the Southern Baltic and the south-eastern part of the North Sea.","https://emodnet.ec.europa.eu/geonetwork/srv/eng/catalog.search#/metadata/6d617269-6e65-696e-666f-000000000695; 
+https://www.eurobis.org/toolbox/en/download/occurrence/dataset/695; 
+mda.vliz.be/mda/directlink.php?fid=VLIZ_00000014_1225452686; 
+mda.vliz.be/mda/directlink.php?fid=VLIZ_00000014_1225452709; 
+https://obis.org/dataset/6b96b0c8-ae95-4ad4-b8cb-5c1a706cf7aa",
+"Monoporeia affinis, Marenzelleria, Macoma balthica abundance model in Baltic Sea","Data represents the abundance of benthic community with Monoporeia affinis, Marenzelleria, Macoma balthica in the Baltic Sea. Baltic wide benthic community analysis is done based on the abundance and biomass data averaged for all sampling events in within 5 km grid cell based on the harmonised dataset that comprises data at over 7000 locations mostly sampled in period 2000-2013. Random Forest model was used for spatial interpolation.Original data can be downloaded: http://gis.ices.dk/gis/rest/services/ExternalDatasets/Benthic/MapServerFor EMODnet Seabed habitat portal the original dataset was separated as presence-absence grids per identified benthic community in the original article.","https://www.emodnet-seabedhabitats.eu/access-data/launch-map-viewer/?LAYERS=EUSM2016&Y=39&X=-8.525390623910205&activeFilters=&zoom=5&center=10.400,58.700&layerIds=973&baseLayerId=-3&activeFilters=",WWW:LINK-1.0-http--link
+"Mytilus spp., Amphibalanus improvisus abundance model in Baltic Sea","Data represents the abundance of benthic community with Mytilus spp., Amphibalanus improvisus in the Baltic Sea. Baltic wide benthic community analysis is done based on the abundance and biomass data averaged for all sampling events in within 5 km grid cell based on the harmonised dataset that comprises data at over 7000 locations mostly sampled in period 2000-2013. Random Forest model was used for spatial interpolation.Original data can be downloaded: http://gis.ices.dk/gis/rest/services/ExternalDatasets/Benthic/MapServer. For EMODnet Seabed habitat portal the original dataset was separated as presence-absence grids per identified benthic community in the original article.","https://www.emodnet-seabedhabitats.eu/access-data/launch-map-viewer/?LAYERS=EUSM2016&Y=39&X=-8.525390623910205&zoom=5&center=10.400,58.700&layerIds=978&baseLayerId=-3&activeFilters=",WWW:LINK-1.0-http--link
+"National monitoring data for beach litter from two Baltic Sea beaches in Denmark, 2020-21","This dataset represents a part of the Danish national monitoring data for marine litter at reference beaches in Denmark 2020 and 2021. The purpose of the monitoring program is to provide systematical and comparable data for assessment of the state, impact and trends of marine litter and thereby comply with the European Marine Strategy Framework Directive (MSFD). National monitoring of marine litter at beaches was initiated in Denmark in 2015, and on request from the Danish Environmental Protection Agency (EPA), and the monitoring activities involving these two beaches in the Baltic Sea are performed by DCE – Danish Centre for Environment and Energy.
+The results of the monitoring surveys performed at these two beaches show that plastic comprised the majority of all beach litter items. The amounts of beach litter were in all regions above the EU threshold value of 20 litter items per 100 m beach length. Among some of the most common type of litter items were plastic pieces 2.5-50 cm, polystyrene pieces 2.5-50 cm and String and cord (diameter less than 1cm).",https://cloud.emodnet-ingestion.eu/index.php/s/8uMhX0QcD2gqfWL,"WWW:DOWNLOAD-1.0-http--download; 
+WWW:LINK-1.0-http--link"
+Neural network modelling of Baltic zooplankton abundances,"This data product is a series of gridded abundance maps for 40 zooplankton species from 2007 to 2013 in the Baltic Sea, based on a neural network analysis. As input data a combination of EMODnet Biology datasets were used, together with the environmental variables dissolved oxygen, salinity, temperature, chlorophyll concentration bathymetry and the distance from coast. Additionally the position (latitude and longitude) and the year are provided to the neural network. DIVAnd (n-dimensional Data-Interpolating Variational Analysis) and the neural network library Knet were used in this analysis.","https://www.emodnet-biology.eu/neural-network-modelling-baltic-zooplankton-abundances; 
+https://github.com/EMODnet/EMODnet-Biology-Zooplankton-Baltic",
+"Observations of three Idotea species (I. balthica, I. chelipes and I. granulosa) in Northern Europe, including the Baltic Sea",,,
+"Observations of three Idotea species (I. balthica, I. chelipes and I. granulosa) in Northern Europe, including the Baltic Sea - data derived from museum collections",Observation data of occurrence of three Idotea species collected from museum collections in Northern Europe.,"https://emodnet.ec.europa.eu/geonetwork/srv/eng/catalog.search#/metadata/6d617269-6e65-696e-666f-000000004605; 
+https://www.eurobis.org/toolbox/en/download/occurrence/dataset/4605; 
+https://www.gbif.org/dataset/bec95074-2220-4c3c-92ed-5ce729bd4307; 
+mda.vliz.be/mda/directlink.php?fid=VLIZ_00000398_1435305860; 
+mda.vliz.be/mda/directlink.php?fid=VLIZ_00000398_1435313480; 
+https://obis.org/dataset/b67743ff-e8ee-4374-87bc-3423d923941d",
+"Observations of three Idotea species (I. balthica, I. chelipes and I. granulosa) in Northern Europe, including the Baltic Sea - field data",Observation data of occurrence of three Idotea species collected from own field sampling in Northern Europe.,"https://emodnet.ec.europa.eu/geonetwork/srv/eng/catalog.search#/metadata/6d617269-6e65-696e-666f-000000004606; 
+https://www.eurobis.org/toolbox/en/download/occurrence/dataset/4606; 
+https://www.gbif.org/dataset/9c8c249c-9426-4a03-a5bc-9150966b3c2c; 
+mda.vliz.be/mda/directlink.php?fid=VLIZ_00000398_1435305860; 
+mda.vliz.be/mda/directlink.php?fid=VLIZ_00000398_1435313480; 
+https://obis.org/dataset/2e3d797b-69db-4e5d-b4a9-9e1f8d8dbc70",
+"Phoronis, Tellina fabula, Thracia phaseolina, Ophelia borealis, Spiophanes bombyx, Branchiostoma lanceolatum, Spio arndti abundance model in Baltic Sea","Data represents the abundance of benthic community with Phoronis, Tellina fabula, Thracia phaseolina, Ophelia borealis, Spiophanes bombyx, Branchiostoma lanceolatum, Spio arndtiin the Baltic Sea. Baltic wide benthic community analysis is done based on the abundance and biomass data averaged for all sampling events in within 5 km grid cell based on the harmonised dataset that comprises data at over 7000 locations mostly sampled in period 2000-2013. Random Forest model was used for spatial interpolation.Original data can be downloaded: http://gis.ices.dk/gis/rest/services/ExternalDatasets/Benthic/MapServer. For EMODnet Seabed habitat portal the original dataset was separated as presence-absence grids per identified benthic community in the original article.","https://www.emodnet-seabedhabitats.eu/access-data/launch-map-viewer/?LAYERS=EUSM2016&Y=39&X=-8.525390623910205&zoom=5&center=10.400,58.700&layerIds=979&baseLayerId=-3&activeFilters=",WWW:LINK-1.0-http--link
+Polish Monitoring Programme - Monitoring of the Baltic Sea,Biological data originates from the Polish Exclusive Economic Zone of the Baltic Sea including shallow water lagoons. Data has been collected in frame of the Polish Monitoring Programme of the Baltic Sea in frame of the contract with Chief Inspectorate for Environmental Protection.,,
+Polish Monitoring Programme - Monitoring of the Baltic Sea: chlorophyll a,"ongoing input: from current backwards -> quality, quantity - abundance, biomass (C and biovolume) plus physico- chemical factors",,
+Polish Monitoring Programme - Monitoring of the Baltic Sea: phytobenthos,"Phytobenthos data from Polish Exclusive Economic Zone of the Baltic Sea collected in frame of the Polish Monitoring Programme. Data include information on species composition, areal coverage and  dry biomass of phytobenthos community for the period of 2002-2012. Additional data on substrate type are included in the data.","https://emodnet.ec.europa.eu/geonetwork/srv/eng/catalog.search#/metadata/6d617269-6e65-696e-666f-000000002464; 
+https://www.eurobis.org/toolbox/en/download/occurrence/dataset/2464; 
+https://obis.org/dataset/c21f2063-3856-4003-859b-f44c270c9fc7",
+Polish Monitoring Programme - Monitoring of the Baltic Sea: phytoplankton,"Phytoplankton data from Polish Exclusive Economic Zone of the Baltic Sea collected in frame of the Polish Monitoring Programme. Data include information on species composition, abundance and biomass (biovolume and C biomass) of phytoplankton community for the period of 2002-2012.","https://emodnet.ec.europa.eu/geonetwork/srv/eng/catalog.search#/metadata/6d617269-6e65-696e-666f-000000002463; 
+https://www.eurobis.org/toolbox/en/download/occurrence/dataset/2463; 
+https://obis.org/dataset/11ca6599-6a0c-4de2-9790-b37853dbd7b3",
+Polish Monitoring Programme - Monitoring of the Baltic Sea: zoobenthos,"Zoobenthos data from Polish Exclusive Economic Zone of the Baltic Sea collected in frame of the Polish Monitoring Programme. Data include information on species composition, abundance and biomass (wet and dry) of zoobenthos community for the period of 1979-2012.","https://emodnet.ec.europa.eu/geonetwork/srv/eng/catalog.search#/metadata/6d617269-6e65-696e-666f-000000002467; 
+https://www.eurobis.org/toolbox/en/download/occurrence/dataset/2467; 
+https://obis.org/dataset/f5825142-2c9f-49d8-8c78-18bd318ec279",
+Polish Monitoring Programme - Monitoring of the Baltic Sea: zooplankton,"Zooplankton data from Polish Exclusive Economic Zone of the Baltic Sea collected in frame of the Polish Monitoring Programme. Data include information on species composition, abundance and biomass of zooplankton community for the period of 2002-2012.","https://emodnet.ec.europa.eu/geonetwork/srv/eng/catalog.search#/metadata/6d617269-6e65-696e-666f-000000002466; 
+https://www.eurobis.org/toolbox/en/download/occurrence/dataset/2466; 
+https://obis.org/dataset/e8c2a9de-09d9-4301-a5f6-9af5eaa1ed12",
+Potential spawning areas for Baltic flounder (PBS EFH),"Essential fish habitat (EFH) map on Potential spawning areas for Baltic flounder was prepared in PanBalticScope project (co-founded by the European Maritime and Fisheries Fund of the European Union) http://www.panbalticscope.eu/
+
+Baltic flounder (Platichthys solemdali) is a key species in many coastal areas of the Baltic Sea. It is the only endemic fish species of the Baltic Sea. Baltic flounder spawns in shallow coastal areas and on offshore banks, with eggs developing on the sea floor. Successful spawning may be expected at salinities down to around 5-7 (Nissling et al. 2002). ‘‘Potential spawning areas’ were initially delineated by a species distribution model (Orio et al. 2017) developed based on years 1993-1997 to consider a period with relatively better oxygen conditions, but applied with more recent data (2011-2014). The area was further delineated to encompass only areas shallower than 30 m in order to represent the demersal spawning habitat. ‘High probability spawning areas’ were identified as the sub-section encompassing salinity > 6. It should be noted that flounders in the Baltic Sea were recently separated into two species, and that spawning areas of the European flounder (Platichthys flesus) are described separately. The two data layers do not overlap and can be combined to obtain a map on spawning areas for both flounder species taken together. 
+
+Stocks: ICES identifies two stocks of Baltic flounder: ICES subdivisions 26, 28 (East of Gotland and Gulf of Gdansk), and 27, 29-32 (Northern Central Baltic Sea and Northern Baltic Sea).
+
+EFH Type: Spawning areas
+
+Approach: Species distribution modelling combined with identification of environmental salinity window and depth conditions for spawning, supplemented with additional information from monitoring in Estonian waters.
+
+Variables and thresholds: Depth < 30 m, Salinity > 6
+
+Quality: The data layer is based on species distribution modelling focusing on mature flounder at the spawning stage and should be considered a rough estimation. 
+The data layers on environmental variables are based on modelling. Other variables than those tested in the model may also be influential.
+The studies from which the thresholds values for environmental variables have been obtained are based on publications conducted before the separation of Baltic flounder from European flounder but have taken the specific characteristics of the separate spawning ecotypes into account.
+
+Attribute information: Raster value representing no spawning (0), potential spawning area (0.5) and high probability spawning area (1).
+
+References: 
+- Momigliano, P, GP Denys, H Jokinen, and J Merilä (2018) Platichthys solemdali sp. nov. (Actinopterygii, Pleuronectiformes): a new flounder species from the Baltic Sea. Frontiers in Marine Science 5:225
+- Nissling, A, L Westin, and O Hjerne (2002) Reproductive success in relation to salinity for three flatfish species, dab (Limanda limanda), plaice (Pleuronectes platessa), and flounder (Pleuronectes flesus), in the brackish water Baltic Sea. ICES Journal of Marine Science 59:93-108
+- Orio, A, U Bergström, M Casini, M Erlandsson, R Eschbaum, K Hüssy, A Lehmann, L Ložys, D Ustups, and A-B Florin (2017a) Characterizing and predicting the distribution of Baltic Sea flounder (Platichthys flesus) during the spawning season. Journal of Sea Research 126:46-55
+- Seifert, T, F Tauber, and B Kayser (2001) A high resolution spherical grid topography of the Baltic Sea -2nd edition. Baltic sea Science Congress, Stockholm 25-29 November 2001, Poster #147","https://maps.helcom.fi/website/MADS/download/?id=707b057a-353c-4818-91ee-c73dd0e3aa4c; 
+https://maps.helcom.fi/website/mapservice/?datasetID=707b057a-353c-4818-91ee-c73dd0e3aa4c; 
+https://gis.ices.dk/geonetwork/srv/api/records/DB8427C1-28A2-4943-BA60-1BEAF0DC144B/attachments/image.png","WWW:LINK-1.0-http--link; 
+WWW:LINK-1.0-http--link"
+Presence/Absence maps of phytoplankton in the Greater Baltic Sea,"The project aims to produce comprehensive data product of the occurence  and absence of (phyto)plankton species. As a basis, data from EMODnet  Biology are used. The selection of relevant datasets is optimized in  order to find all planktonic species, and exclude all species that are  not planktonic. The occurences from EMODnet Biology were complemenented  with absence data assuming fixed species lists within each dataset and  year. The products are presented as maps of the distribution of the 20  most common species of (phyto)plankton in the Greater Baltic Sea.","https://emodnet.ec.europa.eu/geonetwork/srv/eng/catalog.search#/metadata/ee6e0a18bb94476cd689fccadda8cc8edcdfbc53; 
+https://erddap.emodnet.eu/erddap/files/biology_phyto_6618_BalticSea_8b1e_5c90_9a2c/; 
+https://github.com/EMODnet/EMODnet-Biology-Phytoplankton-Greater-BalticSea; 
+https://mda.vliz.be/directlink.php?fid=VLIZ_00000727_60460e2ce96bf134939730",
+Probability that the seafloor is below the halocline in the Baltic,"Below halocline probability layer in the Baltic Sea and Kattegat strait in the North Sea/Baltic Sea.,  Produced by DHI as an input layer for the EUSeaMap 2019 broad-scale habitat model. 
+Data acquired from DHI hydrographic Model MIKE III (3D baroclinic model for free surface flow), with a resolution of a 5.5 km.
+Detailed information is found in the EMODnet Seabed Habitats technical report:
+Populus J. et al 2017. EUSeaMap, a European broad-scale seabed habitat map. Ifremer. http://doi.org/10.13155/49975","http://archimer.ifremer.fr/doc/00388/49975/; 
+http://www.emodnet-seabedhabitats.eu/access-data/download-data/?linkid=baltic_halocline; 
+https://files.emodnet-seabedhabitats.eu/data/baltic_halocline.zip","WWW:LINK-1.0-http--link; 
+WWW:LINK-1.0-http--link; 
+WWW:LINK-1.0-http--link"
+Probability that the seafloor is below the halocline in the Baltic - Original point dataset ÔÇô Version 2022,"Based on DHI operational Hydrodynamic 3D Model DKBS2hd model run results, a point dataset describing for each year the probability of a certain seabed location in the Baltic Sea being located below the deep halocline has been created. The spatial coverage is the Baltic Sea. The spatial resolution is 5km. The temporal coverage is 20 years (2001-2020). The dataset is a point shapefile, the attribute table of which contains the following columns 
+-	20 columns whose name is in the form p[yyyy] (e.g; p2001), where yyyy is the year: for the year yyyy, probability of the point location being located below the deep halocline
+-	column ÔÇÿmeanÔÇÖ: probability average (i.e. average of the 20 yearly probabilities)
+-	column ÔÇÿstdÔÇÖ: probability standard deviation across the 20 years
+The development of the original point dataset was funded by the EMODnet lot ÔÇÿSeabed HabitatsÔÇÖ for use in the development of the EUSeaMap product, more specifically in modeling the spatial distribution of the biological zones ÔÇÿcircalittoralÔÇÖ and ÔÇÿoffshore circalittoralÔÇÖ. According to the EUNIS habitat classification, in the Baltic Sea the circalittoral is above the halocline/pycnocline, while the offshore circalittoral is below.",https://files.emodnet-seabedhabitats.eu/data/prob_deep_halocline_nodes.zip,WWW:LINK-1.0-http--link
+Sea surface salinity in the northern Baltic Sea,"This layer was created for spatial distribution modelling of Fucus spp. in the northern Baltic Sea (Lappalanen et al, 2019). The layer represents average salinity conditions throughout the growing season, i.e. June-August values averaged over the period 2004-2015. The horizontal resolution is 20 meters.
+It was re-used for the EUSeaMap 2019. 
+For further details on how it was generated: 
+Lappalainen, J., Virtanen, E.A., Kallio, K., Junttila, S., Viitasalo, M., 2019. Substrate limitation of a habitat-forming genus Fucus under different water clarity scenarios in the northern Baltic Sea. Estuarine, Coastal and Shelf Science 218, 31ÔÇô38. https://doi.org/10.1016/j.ecss.2018.11.010",,
+Secchi Disk┬áDepth Ratio for the Baltic Sea,"Secchi disk┬ádepth ratio layer produced by EMODnet Seabed Habitats as an input layer for the 2016 EUSeaMap broad-scale habitat model. The extent of the mapped area includes Baltic Sea. The Secchi disk depth ratio was calculated from Secchi disk depth and depth to the seabed variables.
+
+Detailed information on the modelling process is found in the EMODnet Seabed Habitats technical report and its appendices (Populus et al, 2017, link in Resources).","http://archimer.ifremer.fr/doc/00388/49975/; 
+http://www.emodnet-seabedhabitats.eu/access-data/download-data/?linkid=secchi_depth_ratio","WWW:LINK-1.0-http--link; 
+WWW:LINK-1.0-http--link"
+Southern Baltic Continuous Plankton Recorder,Southern Baltic - in the deep sea area a transect paralell to the outer border of the Polish EEZ,,
+"Sweden Marine Beach Litter Data Kattegat, the Sound and the Baltic Sea 2022 rev","Beach litter monitoring data from Kattegat, the SOund and the Blatic Sea","https://cloud.emodnet-ingestion.eu/index.php/s/vPKjmzU0A2d8EEe; 
+https://cdi-chemistry.seadatanet.org/search/welcome.php?query=2620&query_code={FC0A4BC1-9244-4006-9D3D-78AD73F2EFB1}; 
+https://cdi.seadatanet.org/search/welcome.php?query=2652&query_code={7EF1EEEC-B136-4D86-A511-ADB10AB42502}","WWW:DOWNLOAD-1.0-http--download; 
+WWW:LINK-1.0-http--link; 
+WWW:LINK-1.0-http--link"
+"Swedish marine beach litter data from Kattegat, the Sound and the Baltic Sea 2019","Beach litter monitoring data from Kattegat, the Sound and the Baltic Sea","https://cloud.emodnet-ingestion.eu/index.php/s/c6Dj7YwloEF7l4X; 
+https://cdi-chemistry.seadatanet.org/search/welcome.php?query=1726&query_code=%7B5B9F5C99-72C5-4289-974B-5809005E4B8F%7D; 
+https://cdi.seadatanet.org/search/welcome.php?query=1733&query_code={E4F2DCDF-92ED-43A0-9AC7-32094968AE33}","WWW:DOWNLOAD-1.0-http--download; 
+WWW:LINK-1.0-http--link; 
+WWW:LINK-1.0-http--link"
+"Swedish marine beach litter data from Kattegat, the Sound and the Baltic Sea 2020","Beach litter monitoring data from Kattegat, the Sound and the Baltic Sea","https://cloud.emodnet-ingestion.eu/index.php/s/EzQKt9n3sMB9PhK; 
+https://cdi-chemistry.seadatanet.org/search/welcome.php?query=1757&query_code=%7bD51AB513-D765-4F63-9C06-EC6905D43EC8%7d; 
+https://cdi.seadatanet.org/search/welcome.php?query=1758&query_code={6EAD4AF8-7D17-4115-A872-9837DDB61831}","WWW:DOWNLOAD-1.0-http--download; 
+WWW:LINK-1.0-http--link; 
+WWW:LINK-1.0-http--link"
+"Swedish marine beach litter data from Kattegat, the Sound and the Baltic Sea 2021","Beach litter monitoring data from Kattegat, the Sound and the Baltic Sea","https://cloud.emodnet-ingestion.eu/index.php/s/JWMjBgrg2UCsI6h; 
+https://cdi-chemistry.seadatanet.org/search/welcome.php?query=2244&query_code={F4DCCA2B-62C6-4925-93BC-841EDBCB2F51}; 
+https://cdi.seadatanet.org/search/welcome.php?query=2244&query_code={F4DCCA2B-62C6-4925-93BC-841EDBCB2F51}","WWW:DOWNLOAD-1.0-http--download; 
+WWW:LINK-1.0-http--link; 
+WWW:LINK-1.0-http--link"
+"Swedish marine beach litter data from Kattegat, the Sound and the Baltic Sea 2023","Beach litter monitoring data from the Swedish coastline of Kattegat, the Sound and the Baltic Sea",https://cloud.emodnet-ingestion.eu/index.php/s/6jIbNHaMJQo8WOQ,"WWW:DOWNLOAD-1.0-http--download; 
+WWW:LINK-1.0-http--link"
+"Swedish marine beach litter monitoring data from Kattegat, the Sound and the Baltic Sea 2","Beach litter data from Kattegat, the Sound and the Baltic Sea","https://cloud.emodnet-ingestion.eu/index.php/s/RrNImhFsc1mHWdx; 
+https://cdi.seadatanet.org/search/welcome.php?query=2109&query_code={D8903F28-AD96-40B4-B120-05EDCFD20714}","WWW:DOWNLOAD-1.0-http--download; 
+WWW:LINK-1.0-http--link"
+"Tellina tenuis, Ensis directus, Haustorius arenarius, Lamprops fasciatus abundance model in Baltic Sea","Data represents the abundance of benthic community with Tellina tenuis, Ensis directus, Haustorius arenarius, Lamprops fasciatusin the Baltic Sea. Baltic wide benthic community analysis is done based on the abundance and biomass data averaged for all sampling events in within 5 km grid cell based on the harmonised dataset that comprises data at over 7000 locations mostly sampled in period 2000-2013. Random Forest model was used for spatial interpolation.Original data can be downloaded: http://gis.ices.dk/gis/rest/services/ExternalDatasets/Benthic/MapServer. For EMODnet Seabed habitat portal the original dataset was separated as presence-absence grids per identified benthic community in the original article.",,
+"Temperature, salinity and density of sea water for the Baltic Sea (Cruise_22346)","The 22346 cruise took place from July 9 to July 17 2013. Selected area: the Baltic Sea.Sampling techniques: CTD.The CTD profiles of this dataset include temperature, salinity,density  and were measured in 17 stations with CTD-probe, manufactured by IDRONAUT 316 in year 2009.",https://cloud.emodnet-ingestion.eu/index.php/s/I6SHKOFaeNBD2gW,"WWW:DOWNLOAD-1.0-http--download; 
+WWW:LINK-1.0-http--link"
+The coastal zone habitats of the Baltic Sea on Latvia-Lithuania border,"Description of the coastal zone bank habitats of the Baltic Sea on Latvia-Lithuania border based on underwater video observation. Observation for National environmental status assessment, Maritime spatial planning, Marine Strategy Framework Directive. Underwater video observation was done by Latvian Institute of Aquatic Ecology. Open data policy.","https://cloud.emodnet-ingestion.eu/index.php/s/fLJ2DxEOszRcRK6; 
+https://www.emodnet-seabedhabitats.eu/access-data/launch-map-viewer/?zoom=8&center=20.455,56.003&layerIds=700&baseLayerId=-3&activeFilters=","WWW:DOWNLOAD-1.0-http--download; 
+WWW:LINK-1.0-http--link"
+Total Suspended Matter Baltic Sea,"EMODnet Physics - TSM_BalticSea - Concentration of total suspended matter (conc_tsm, mg/l) is a product of the Coastcolour L2W Concentrations Data, obtained from the OC4 algorithm for clear and moderate turbid waters, and from the CoastColour v1 neural network.The L2W product was then remapped on a regular grid, maintaining the 300 m full resolution, in order to obtain L3 products over the Baltic Sea and monthly averaged. Developed by EMODnet Physics.",https://prod-erddap.emodnet-physics.eu/ncWMS/wms?SERVICE=WMS&REQUEST=GetCapabilities&VERSION=1.3.0&DATASET=TSM_BALTICSEA,OGC:WMS
+Total Suspended Matter Baltic Sea - ERDDAP,,,
+Wave exposure index at sea surface in the Baltic Sea,"Wave exposure index at the surface in the Baltic Sea and part of the North Sea (Kattegat strait).  Produced by Aquabiota as an input layer for the EUSeaMap broad-scale habitat models. 
+Data acquired from Aquabiota fetch based model with a spatial resolution of a 25m, model run for the period 2002-2007. 
+
+Detailed information is found in the EMODnet Seabed Habitats technical report:
+Populus J. et al 2017. EUSeaMap, a European broad-scale seabed habitat map. Ifremer. 
+
+http://doi.org/10.13155/49975","http://www.emodnet-seabedhabitats.eu/access-data/download-data/?linkid=baltic_wei; 
+http://archimer.ifremer.fr/doc/00388/49975/; 
+http://52.49.27.224/geoserver/wms?; 
+https://files.emodnet-seabedhabitats.eu/data/baltic_wei_swm_with_wh1.zip","WWW:LINK-1.0-http--link; 
+WWW:LINK-1.0-http--link; 
+OGC:WMS-1.1.1-http-get-map; 
+WWW:LINK-1.0-http--link"
+Western Baltic Sea Copepods,The main question in this research was how Harpacticoid copepod communities differ in species composition and diversity on a north to south gradient in the Western Baltic area and what factors might explain these differences,"https://emodnet.ec.europa.eu/geonetwork/srv/eng/catalog.search#/metadata/6d617269-6e65-696e-666f-000000000977; 
+https://www.eurobis.org/toolbox/en/download/occurrence/dataset/977; 
+mda.vliz.be/mda/directlink.php?fid=VLIZ_00000105_1386690103; 
+mda.vliz.be/mda/directlink.php?fid=VLIZ_00000105_1386690114; 
+https://obis.org/dataset/610bd0de-37d8-41aa-a663-393da3cf0c06",
