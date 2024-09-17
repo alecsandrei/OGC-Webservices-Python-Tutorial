@@ -14,4 +14,3 @@ dependencies:
   - descartes
   - folium
   - ipyleaflet
-  - math
