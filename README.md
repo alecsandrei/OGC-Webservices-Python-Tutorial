@@ -3,7 +3,7 @@ Lauch this tutorial on Binder:
 
 <img src="EMODnet_compact_colour.png" align="right" width="50%"></img>
 # EMODnet OGC services Workshop
-### Tier 2: How to use OGC webservices offered by EMODnet in your data analysis
+
 ## 0. Introduction to OGC web services
 In case you are familiar with OGC web services, you can continue in the next sections of the workshop:
 - [Search through metadata using the OGC Catalogue Service (CSW)](./Tutorial_Part_1_CSW.ipynb) 
