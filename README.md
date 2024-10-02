@@ -6,10 +6,10 @@ Lauch this tutorial on Binder:
 ### Tier 2: How to use OGC webservices offered by EMODnet in your data analysis
 ## 0. Introduction to OGC web services
 In case you are familiar with OGC web services, you can continue in the next sections of the workshop:
-- [Search through metadata using the OGC Catalogue Service (CSW)](./1_search_metadata_with_CSW.ipynb) 
-- [Visualize data using OGC Web Mapping Service (WMS)](./2_visualize_data_with_WMS.ipynb) 
-- [Subset and download data using OGC Web Feature and Coverage Services (WFS/WCS)](./3_subset_and_download_data_with_WFS&WCS.ipynb)
-- [Use OGC services from common GIS software](./4_OGC_services_from_common_GIS_software.ipynb)
+- [Search through metadata using the OGC Catalogue Service (CSW)](./Tutorial_Part_1_CSW.ipynb) 
+- [Visualize data using OGC Web Mapping Service (WMS)]([./Tutorial_Part_2_WMS.ipynb)) 
+- [Subset and download data using OGC Web Feature and Coverage Services (WFS/WCS)](.Tutorial_Part_3_WFS_WCS.ipynb)
+- [Use OGC services from common GIS software](.Tutorial_Part_4_WMTS.ipynb)
 ### What are OGC web services?
 
 Web services offer a variety of standard protocols that use the internet to view, access and retrieve data and metadata. The Open Geospatial Consortium (OGC) has defined various different protocols for geospatial data and metadata.
