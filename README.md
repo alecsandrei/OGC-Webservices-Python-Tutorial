@@ -9,7 +9,7 @@ In case you are familiar with OGC web services, you can continue in the next sec
 - [Search through metadata using the OGC Catalogue Service (CSW)](./Tutorial_Part_1_CSW.ipynb) 
 - [Visualize data using OGC Web Mapping Service (WMS)]([./Tutorial_Part_2_WMS.ipynb)) 
 - [Subset and download data using OGC Web Feature and Coverage Services (WFS/WCS)](.Tutorial_Part_3_WFS_WCS.ipynb)
-- [Use OGC services from common GIS software](.Tutorial_Part_4_WMTS.ipynb)
+- [Create interactive maps using OGC Web Mapping Tiles Services(WMTS)](.Tutorial_Part_4_WMTS.ipynb)
 ### What are OGC web services?
 
 Web services offer a variety of standard protocols that use the internet to view, access and retrieve data and metadata. The Open Geospatial Consortium (OGC) has defined various different protocols for geospatial data and metadata.
