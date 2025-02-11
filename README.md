@@ -197,6 +197,7 @@ A ***DescribeFeature*** request returns a description of feature types supported
             typeName=shellfish&<br>
             bbox=-1.3,0.3,49.2,49.9&<br>
             outputFormat=application/json](https://ows.emodnet-humanactivities.eu/wfs?SERVICE=WFS&VERSION=1.1.0&request=getFeature&typeName=shellfish&bbox=-1.3,0.3,49.2,49.9&outputFormat=application/json)
+
 ### WCS requests
 A Web Coverage Service (WCS) is a data-access protocol that defines and enables the web-based retrieval of multi-dimensional raster type geospatial datasets.  
 The WCS core supports three main HTTP requests (operations), which are submitted in the form of a URL:
@@ -223,7 +224,7 @@ A WCS ***DescribeCoverage*** request returns an XML document with metadata infor
             coverage=emodnet:mean](https://ows.emodnet-bathymetry.eu/wcs?service=wcs&version=1.0.0&request=DescribeCoverage&coverage=emodnet:mean)
 
 #### WCS GetCoverage
-A WCS ***GetCoverage*** request returns a full coverage encoded in a specified format, e.g GeoTiff, XML or netCDF. similarly to a WMS ***GetMap*** request, but with several extensions to support the retrieval of coverages.
+A WCS ***GetCoverage*** request returns a full coverage encoded in a specified format (e.g GeoTiff, ESRI ASCII or netCDF), resampling algorithm, projection, etc.
 
 >Example of an EMODnet Bathymetry ***GetCoverage*** request:<br>
 [https://ows.emodnet-bathymetry.eu/wcs?<br>
